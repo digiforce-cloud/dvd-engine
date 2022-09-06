@@ -21,12 +21,12 @@ interface IGeneralComponent<P = {}, S = {}, SS = any> extends ComponentLifecycle
 }
 
 export type IGeneralConstructor<
-  P = {
+  T = {
     [key: string]: any;
   }, S = {
     [key: string]: any;
-  }, SS = any
-> = new (props: any, context: any) => IGeneralComponent<P, S, SS>;
+  }, D = any
+> = new <TT = T, SS = S, DD = D>(props: TT, context: any) => IGeneralComponent<TT, SS, DD>;
 
 /**
  * duck-typed History
@@ -133,6 +133,11 @@ export interface IRendererProps {
    * JSExpression 是否只支持使用 this 来访问上下文变量
    */
   thisRequiredInJSE?: boolean;
+  /**
+   * @default false
+   * 当组件找不到时开启严格提示模式，有子元素时不渲染
+   */
+  enableStrictNotFoundTip?: boolean;
 }
 
 export interface IRendererState {

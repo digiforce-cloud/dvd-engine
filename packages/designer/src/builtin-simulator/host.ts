@@ -232,6 +232,10 @@ export class BuiltinSimulatorHost implements ISimulatorHost<BuiltinSimulatorProp
     return engineConfig.get('thisRequiredInJSE') ?? true;
   }
 
+  get enableStrictNotFoundTip(): any {
+    return engineConfig.get('enableStrictNotFoundTip') ?? false;
+  }
+
   @computed get componentsAsset(): Asset | undefined {
     return this.get('componentsAsset');
   }

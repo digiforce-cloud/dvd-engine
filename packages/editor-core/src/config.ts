@@ -137,6 +137,10 @@ const VALID_ENGINE_OPTIONS = {
     type: 'boolean',
     description: 'JSExpression 是否只支持使用 this 来访问上下文变量',
   },
+  enableStrictNotFoundTip: {
+    type: 'boolean',
+    description: '当组件找不到时开启严格提示模式，不允许移动、复制，有子元素时也不渲染',
+  },
 };
 export interface EngineOptions {
   /**
@@ -258,6 +262,12 @@ export interface EngineOptions {
    * JSExpression 是否只支持使用 this 来访问上下文变量，假如需要兼容原来的 'state.xxx'，则设置为 false
    */
   thisRequiredInJSE?: boolean;
+
+  /**
+   * @default false
+   * 当组件找不到时开启严格提示模式，不允许移动、复制，有子元素时也不渲染
+   */
+  enableStrictNotFoundTip?: boolean;
 }
 
 const getStrictModeValue = (engineOptions: EngineOptions, defaultValue: boolean): boolean => {
