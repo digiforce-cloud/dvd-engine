@@ -1,6 +1,6 @@
-import { getSetter, registerSetter, getSettersMap } from '@alilc/lowcode-editor-core';
-import { isFormEvent, compatibleLegaoSchema, getNodeSchemaById } from '@alilc/lowcode-utils';
-import { isNodeSchema } from '@alilc/lowcode-types';
+import { getSetter, registerSetter, getSettersMap } from '@digiforce-cloud/dvd-editor-core';
+import { isFormEvent, compatibleLegaoSchema, getNodeSchemaById } from '@digiforce-cloud/dvd-utils';
+import { isNodeSchema } from '@digiforce-cloud/dvd-types';
 
 export type Setters = {
   getSetter: typeof getSetter;

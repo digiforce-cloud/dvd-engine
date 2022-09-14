@@ -1,11 +1,11 @@
 import { ReactInstance, Fragment, Component, createElement } from 'react';
 import { Router, Route, Switch } from 'react-router';
 import cn from 'classnames';
-import { Node } from '@alilc/lowcode-designer';
-import LowCodeRenderer from '@alilc/lowcode-react-renderer';
+import { Node } from '@digiforce-cloud/dvd-designer';
+import LowCodeRenderer from '@digiforce-cloud/dvd-react-renderer';
 import { observer } from 'mobx-react';
-import { getClosestNode, isFromVC, isReactComponent } from '@alilc/lowcode-utils';
-import { GlobalEvent } from '@alilc/lowcode-types';
+import { getClosestNode, isFromVC, isReactComponent } from '@digiforce-cloud/dvd-utils';
+import { GlobalEvent } from '@digiforce-cloud/dvd-types';
 import { SimulatorRendererContainer, DocumentInstance } from './renderer';
 import { host } from './host';
 

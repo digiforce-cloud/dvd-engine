@@ -1,6 +1,6 @@
 import { ReactInstance } from 'react';
 import { findDOMNode } from 'react-dom';
-import { isElement } from '@alilc/lowcode-utils';
+import { isElement } from '@digiforce-cloud/dvd-utils';
 import { isDOMNode } from './is-dom-node';
 
 export const FIBER_KEY = '_reactInternalFiber';

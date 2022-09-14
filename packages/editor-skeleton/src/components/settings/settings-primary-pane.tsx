@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Tab, Breadcrumb } from '@alifd/next';
-import { Title, observer, Editor, obx, globalContext, engineConfig, makeObservable } from '@alilc/lowcode-editor-core';
-import { Node, isSettingField, SettingField, Designer } from '@alilc/lowcode-designer';
+import { Title, observer, Editor, obx, globalContext, engineConfig, makeObservable } from '@digiforce-cloud/dvd-editor-core';
+import { Node, isSettingField, SettingField, Designer } from '@digiforce-cloud/dvd-designer';
 import classNames from 'classnames';
 import { SettingsMain } from './main';
 import { SettingsPane } from './settings-pane';
 import { StageBox } from '../stage-box';
 import { SkeletonContext } from '../../context';
-import { createIcon } from '@alilc/lowcode-utils';
+import { createIcon } from '@digiforce-cloud/dvd-utils';
 
 @observer
 export class SettingsPrimaryPane extends Component<{ editor: Editor; config: any }, { shouldIgnoreRoot: boolean }> {

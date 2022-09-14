@@ -1,7 +1,7 @@
 /* eslint-disable no-multi-assign */
-import { Editor, EngineConfig, engineConfig } from '@alilc/lowcode-editor-core';
-import { Designer, ILowCodePluginManager } from '@alilc/lowcode-designer';
-import { Skeleton as InnerSkeleton } from '@alilc/lowcode-editor-skeleton';
+import { Editor, EngineConfig, engineConfig } from '@digiforce-cloud/dvd-editor-core';
+import { Designer, ILowCodePluginManager } from '@digiforce-cloud/dvd-designer';
+import { Skeleton as InnerSkeleton } from '@digiforce-cloud/dvd-editor-skeleton';
 import {
   Hotkey,
   Project,
@@ -12,8 +12,8 @@ import {
   editorSymbol,
   designerSymbol,
   skeletonSymbol,
-} from '@alilc/lowcode-shell';
-import { getLogger, Logger } from '@alilc/lowcode-utils';
+} from '@digiforce-cloud/dvd-shell';
+import { getLogger, Logger } from '@digiforce-cloud/dvd-utils';
 import {
   ILowCodePluginContext,
   IPluginContextOptions,

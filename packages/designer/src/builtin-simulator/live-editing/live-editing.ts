@@ -1,5 +1,5 @@
-import { obx, globalContext, Editor } from '@alilc/lowcode-editor-core';
-import { LiveTextEditingConfig } from '@alilc/lowcode-types';
+import { obx, globalContext, Editor } from '@digiforce-cloud/dvd-editor-core';
+import { LiveTextEditingConfig } from '@digiforce-cloud/dvd-types';
 import { Node, Prop } from '../../document';
 
 const EDITOR_KEY = 'data-setter-prop';

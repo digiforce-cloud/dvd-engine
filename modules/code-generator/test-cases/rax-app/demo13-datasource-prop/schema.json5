@@ -2,14 +2,14 @@
   version: '1.0.0',
   componentsMap: [
     {
-      package: '@alilc/lowcode-components',
+      package: '@digiforce-cloud/dvd-components',
       version: '^1.0.0',
       componentName: 'Page',
       destructuring: true,
       exportName: 'Page',
     },
     {
-      package: '@alilc/lowcode-components',
+      package: '@digiforce-cloud/dvd-components',
       version: '^1.0.0',
       componentName: 'Table',
       destructuring: true,

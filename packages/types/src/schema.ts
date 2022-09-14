@@ -1,4 +1,4 @@
-import { InterpretDataSource as DataSource } from '@alilc/lowcode-datasource-types';
+import { InterpretDataSource as DataSource } from '@digiforce-cloud/dvd-datasource-types';
 import { ComponentsMap } from './npm';
 import {
   CompositeValue,

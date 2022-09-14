@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
-import { autorun, reaction, mobx, untracked, globalContext, Editor } from '@alilc/lowcode-editor-core';
-import { NodeSchema } from '@alilc/lowcode-types';
-import { History as ShellHistory } from '@alilc/lowcode-shell';
+import { autorun, reaction, mobx, untracked, globalContext, Editor } from '@digiforce-cloud/dvd-editor-core';
+import { NodeSchema } from '@digiforce-cloud/dvd-types';
+import { History as ShellHistory } from '@digiforce-cloud/dvd-shell';
 
 export interface Serialization<K = NodeSchema, T = string> {
   serialize(data: K): T;

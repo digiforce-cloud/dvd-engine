@@ -11,7 +11,7 @@ import {
   CompositeValue,
   isNodeSchema,
   isJSFunction,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import { CodeGeneratorError } from '../types/error';
 
 export function isContainerSchema(x: any): x is ContainerSchema {

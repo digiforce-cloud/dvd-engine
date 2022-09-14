@@ -1,7 +1,7 @@
 // @ts-nocheck
-import { Editor } from '@alilc/lowcode-editor-core';
-import { isJSBlock, TransformStage } from '@alilc/lowcode-types';
-import { isPlainObject, isVariable } from '@alilc/lowcode-utils';
+import { Editor } from '@digiforce-cloud/dvd-editor-core';
+import { isJSBlock, TransformStage } from '@digiforce-cloud/dvd-types';
+import { isPlainObject, isVariable } from '@digiforce-cloud/dvd-utils';
 import '../fixtures/window';
 import { Designer } from '../../src/designer/designer';
 import { DocumentModel } from '../../src/document/document-model';

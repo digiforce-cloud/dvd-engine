@@ -5,7 +5,7 @@ import { isFileSchema, isEmpty } from '../utils';
 import baseRendererFactory from './base';
 import divFactory from '../components/Div';
 import { IGeneralConstructor, IRenderComponent, IRendererProps, IRendererState } from '../types';
-import { RootSchema } from '@alilc/lowcode-types';
+import { RootSchema } from '@digiforce-cloud/dvd-types';
 
 export default function rendererFactory(): IRenderComponent {
   const runtime = adapter.getRuntime();

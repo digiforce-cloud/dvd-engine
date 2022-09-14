@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { observer } from '@alilc/lowcode-editor-core';
+import { observer } from '@digiforce-cloud/dvd-editor-core';
 import { BuiltinSimulatorHost } from '../host';
 import {
   DropLocation,
@@ -11,7 +11,7 @@ import {
 import { ISimulatorHost } from '../../simulator';
 import { ParentalNode } from '../../document';
 import './insertion.less';
-import { NodeData, NodeSchema } from '@alilc/lowcode-types';
+import { NodeData, NodeSchema } from '@digiforce-cloud/dvd-types';
 
 interface InsertionData {
   edge?: DOMRect;

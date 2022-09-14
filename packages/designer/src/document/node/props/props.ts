@@ -1,6 +1,6 @@
-import { computed, makeObservable, obx, action } from '@alilc/lowcode-editor-core';
-import { PropsMap, PropsList, CompositeValue } from '@alilc/lowcode-types';
-import { uniqueId, compatStage } from '@alilc/lowcode-utils';
+import { computed, makeObservable, obx, action } from '@digiforce-cloud/dvd-editor-core';
+import { PropsMap, PropsList, CompositeValue } from '@digiforce-cloud/dvd-types';
+import { uniqueId, compatStage } from '@digiforce-cloud/dvd-utils';
 import { Prop, IPropParent, UNSET } from './prop';
 import { Node } from '../node';
 import { TransformStage } from '../transform-stage';

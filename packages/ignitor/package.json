@@ -1,9 +1,8 @@
 {
-  "name": "@alilc/lowcode-ignitor",
+  "name": "@digiforce-cloud/dvd-ignitor",
   "version": "1.0.14",
   "description": "点火器，bootstrap lce project",
   "main": "lib/index.js",
-  "private": true,
   "files": [
     "dist",
     "es",
@@ -11,6 +10,10 @@
   ],
   "scripts": {
     "start": "build-scripts start --disable-open --port 5555"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT",
   "devDependencies": {

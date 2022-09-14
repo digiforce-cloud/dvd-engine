@@ -1,5 +1,5 @@
-import { Props as InnerProps, getConvertedExtraKey } from '@alilc/lowcode-designer';
-import { CompositeValue, TransformStage } from '@alilc/lowcode-types';
+import { Props as InnerProps, getConvertedExtraKey } from '@digiforce-cloud/dvd-designer';
+import { CompositeValue, TransformStage } from '@digiforce-cloud/dvd-types';
 import { propsSymbol } from './symbols';
 import Node from './node';
 import Prop from './prop';

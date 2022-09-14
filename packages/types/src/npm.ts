@@ -41,6 +41,11 @@ export interface LowCodeComponentType {
    * 组件名称
    */
   componentName: string;
+
+  package: string
+  exportName?: string;
+  version?: string;
+  destructuring?: boolean;
 }
 
 export type ProCodeComponentType = NpmInfo;

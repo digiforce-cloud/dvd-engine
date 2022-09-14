@@ -1,4 +1,4 @@
-import { computed, makeObservable, obx } from '@alilc/lowcode-editor-core';
+import { computed, makeObservable, obx } from '@digiforce-cloud/dvd-editor-core';
 import {
   Designer,
   ISensor,
@@ -16,9 +16,9 @@ import {
   ParentalNode,
   contains,
   Node,
-} from '@alilc/lowcode-designer';
-import { uniqueId } from '@alilc/lowcode-utils';
-import { IEditor } from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-designer';
+import { uniqueId } from '@digiforce-cloud/dvd-utils';
+import { IEditor } from '@digiforce-cloud/dvd-types';
 import TreeNode from './tree-node';
 import { IndentTrack } from './helper/indent-track';
 import DwellTimer from './helper/dwell-timer';

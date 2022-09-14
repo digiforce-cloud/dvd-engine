@@ -1,4 +1,4 @@
-import { makeObservable, obx } from '@alilc/lowcode-editor-core';
+import { makeObservable, obx } from '@digiforce-cloud/dvd-editor-core';
 import { EventEmitter } from 'events';
 import { Node, DocumentModel } from '../document';
 

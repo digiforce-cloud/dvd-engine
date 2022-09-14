@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
-import { Editor, engineConfig, globalContext } from '@alilc/lowcode-editor-core';
-import { DesignerView, Designer } from '@alilc/lowcode-designer';
-import { Asset } from '@alilc/lowcode-utils';
+import { Editor, engineConfig, globalContext } from '@digiforce-cloud/dvd-editor-core';
+import { DesignerView, Designer } from '@digiforce-cloud/dvd-designer';
+import { Asset } from '@digiforce-cloud/dvd-utils';
 import './index.scss';
 
 export interface PluginProps {

@@ -11,8 +11,8 @@
     "intl-messageformat": "^9.3.6",
     "@ice/store": "^1.4.3",
     "@loadable/component": "^5.15.2",
-    "@alilc/lowcode-datasource-engine": "latest",
-    "@alilc/lowcode-datasource-fetch-handler": "latest",
+    "@digiforce-cloud/dvd-datasource-engine": "latest",
+    "@digiforce-cloud/dvd-datasource-fetch-handler": "latest",
     "@alife/container": "latest",
     "@alife/mc-assets-1935": "0.1.9"
   },

@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "@alilc/lowcode-test-mate/plugin/index.ts"
+    "@digiforce-cloud/dvd-test-mate/plugin/index.ts"
   ]
 }

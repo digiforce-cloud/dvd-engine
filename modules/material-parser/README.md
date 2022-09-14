@@ -1,4 +1,4 @@
-# @alilc/lowcode-material-parser
+# @digiforce-cloud/dvd-material-parser
 
 > 入料模块
 

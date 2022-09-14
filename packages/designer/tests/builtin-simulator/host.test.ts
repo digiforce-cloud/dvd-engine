@@ -3,7 +3,7 @@ import React from 'react';
 import set from 'lodash/set';
 import cloneDeep from 'lodash/cloneDeep';
 import '../fixtures/window';
-import { Editor, globalContext } from '@alilc/lowcode-editor-core';
+import { Editor, globalContext } from '@digiforce-cloud/dvd-editor-core';
 import {
   AssetLevel,
   Asset,
@@ -11,7 +11,7 @@ import {
   assetBundle,
   assetItem,
   AssetType,
-} from '@alilc/lowcode-utils';
+} from '@digiforce-cloud/dvd-utils';
 import {
   Dragon,
   isDragNodeObject,

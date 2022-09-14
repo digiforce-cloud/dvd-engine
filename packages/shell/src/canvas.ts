@@ -1,4 +1,4 @@
-import { Designer } from '@alilc/lowcode-designer';
+import { Designer } from '@digiforce-cloud/dvd-designer';
 import { designerSymbol } from './symbols';
 import DropLocation from './drop-location';
 

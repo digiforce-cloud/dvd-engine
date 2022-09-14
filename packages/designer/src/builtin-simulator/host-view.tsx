@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { observer, globalContext } from '@alilc/lowcode-editor-core';
+import { observer, globalContext } from '@digiforce-cloud/dvd-editor-core';
 import { BuiltinSimulatorHost, BuiltinSimulatorProps } from './host';
 import { BemTools } from './bem-tools';
 import { Project } from '../project';

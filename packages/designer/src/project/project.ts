@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import { obx, computed, makeObservable, action } from '@alilc/lowcode-editor-core';
+import { obx, computed, makeObservable, action } from '@digiforce-cloud/dvd-editor-core';
 import { Designer } from '../designer';
 import { DocumentModel, isDocumentModel, isPageSchema } from '../document';
 import {
@@ -9,7 +9,7 @@ import {
   TransformStage,
   isLowCodeComponentType,
   isProCodeComponentType,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import { ISimulatorHost } from '../simulator';
 
 export class Project {

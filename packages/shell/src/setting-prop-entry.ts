@@ -1,5 +1,5 @@
-import { SettingField, ISetValueOptions } from '@alilc/lowcode-designer';
-import { CompositeValue, FieldConfig, CustomView, isCustomView } from '@alilc/lowcode-types';
+import { SettingField, ISetValueOptions } from '@digiforce-cloud/dvd-designer';
+import { CompositeValue, FieldConfig, CustomView, isCustomView } from '@digiforce-cloud/dvd-types';
 import { settingPropEntrySymbol } from './symbols';
 import Node from './node';
 import SettingTopEntry from './setting-top-entry';

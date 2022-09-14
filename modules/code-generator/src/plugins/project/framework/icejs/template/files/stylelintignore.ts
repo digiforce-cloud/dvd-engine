@@ -1,4 +1,4 @@
-import { ResultFile } from '@alilc/lowcode-types';
+import { ResultFile } from '@digiforce-cloud/dvd-types';
 import { createResultFile } from '../../../../../../utils/resultHelper';
 
 export default function getFile(): [string[], ResultFile] {

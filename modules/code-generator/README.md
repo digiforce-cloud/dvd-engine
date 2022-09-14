@@ -6,18 +6,18 @@
 
 ### 1) 通过命令行快速体验
 
-欢迎使用命令行工具快速体验：`npx @alilc/lowcode-code-generator -i example-schema.json -o generated -s icejs`
+欢迎使用命令行工具快速体验：`npx @digiforce-cloud/dvd-code-generator -i example-schema.json -o generated -s icejs`
 
---其中 example-schema.json 可以从[这里下载](https://unpkg.com/@alilc/lowcode-code-generator@beta/example-schema.json)
+--其中 example-schema.json 可以从[这里下载](https://unpkg.com/@digiforce-cloud/dvd-code-generator@beta/example-schema.json)
 
 ### 2) 通过设计器插件快速体验
 
-1. 安装依赖: `npm install --save @alilc/lowcode-plugin-code-generator`
+1. 安装依赖: `npm install --save @digiforce-cloud/dvd-plugin-code-generator`
 2. 注册插件:
 
 ```ts
-import { plugins } from '@alilc/lowcode-engine';
-import CodeGenPlugin from '@alilc/lowcode-plugin-code-generator';
+import { plugins } from '@digiforce-cloud/dvd-engine';
+import CodeGenPlugin from '@digiforce-cloud/dvd-plugin-code-generator';
 
 // 在你的初始化函数中：
 await plugins.register(CodeGenPlugin);
@@ -32,11 +32,11 @@ await plugins.register(CodeGenPlugin, { disableCodeGenActionBtn: true });
 
 此代码生成器一开始就是为服务端出码设计的，你可以直接这样来在 node.js 环境中使用：
 
-1. 安装依赖: `npm install --save @alilc/lowcode-code-generator`
+1. 安装依赖: `npm install --save @digiforce-cloud/dvd-code-generator`
 2. 引入代码生成器:
 
 ```js
-import CodeGenerator from '@alilc/lowcode-code-generator';
+import CodeGenerator from '@digiforce-cloud/dvd-code-generator';
 ```
 
 3. 创建项目构建器:
@@ -77,11 +77,11 @@ await CodeGenerator.publishers.zip().publish({
 
 随着现在电脑性能和浏览器技术的发展，出码其实已经不必非得在服务端做了，借助于 Web Worker 特性，可以在浏览器中进行出码：
 
-1. 安装依赖: `npm install --save @alilc/lowcode-code-generator`
+1. 安装依赖: `npm install --save @digiforce-cloud/dvd-code-generator`
 2. 引入代码生成器:
 
 ```js
-import * as CodeGenerator from '@alilc/lowcode-code-generator/standalone-loader';
+import * as CodeGenerator from '@digiforce-cloud/dvd-code-generator/standalone-loader';
 ```
 
 3. 【可选】提前初始化代码生成器:

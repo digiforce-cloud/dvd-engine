@@ -4,7 +4,7 @@ import {
   PopupContext,
   PopupPipe,
   Workbench as InnerWorkbench,
-} from '@alilc/lowcode-editor-skeleton';
+} from '@digiforce-cloud/dvd-editor-skeleton';
 
 export default function getSkeletonCabin(skeleton: InnerSkeleton) {
   return {

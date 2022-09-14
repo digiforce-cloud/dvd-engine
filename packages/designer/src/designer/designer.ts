@@ -1,5 +1,5 @@
 import { ComponentType } from 'react';
-import { obx, computed, autorun, makeObservable, IReactionPublic, IReactionOptions, IReactionDisposer } from '@alilc/lowcode-editor-core';
+import { obx, computed, autorun, makeObservable, IReactionPublic, IReactionOptions, IReactionDisposer } from '@digiforce-cloud/dvd-editor-core';
 import {
   ProjectSchema,
   ComponentMetadata,
@@ -10,8 +10,8 @@ import {
   PropsList,
   isNodeSchema,
   NodeSchema,
-} from '@alilc/lowcode-types';
-import { megreAssets, AssetsJson } from '@alilc/lowcode-utils';
+} from '@digiforce-cloud/dvd-types';
+import { megreAssets, AssetsJson } from '@digiforce-cloud/dvd-utils';
 import { Project } from '../project';
 import { Node, DocumentModel, insertChildren, ParentalNode, TransformStage } from '../document';
 import { ComponentMeta } from '../component-meta';

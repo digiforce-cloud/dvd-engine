@@ -1,9 +1,9 @@
 import {
   ComponentMeta as InnerComponentMeta,
   ParentalNode,
-} from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-designer';
 import Node from './node';
-import { NodeData, NodeSchema } from '@alilc/lowcode-types';
+import { NodeData, NodeSchema } from '@digiforce-cloud/dvd-types';
 import { componentMetaSymbol, nodeSymbol } from './symbols';
 
 export default class ComponentMeta {

@@ -10,13 +10,13 @@ import {
   ComponentDescription,
   RemoteComponentDescription,
   GlobalEvent,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import { engineConfig } from './config';
 import { globalLocale } from './intl';
 import * as utils from './utils';
 import Preference from './utils/preference';
 import { obx } from './utils';
-import { AssetsJson, AssetLoader } from '@alilc/lowcode-utils';
+import { AssetsJson, AssetLoader } from '@digiforce-cloud/dvd-utils';
 
 EventEmitter.defaultMaxListeners = 100;
 

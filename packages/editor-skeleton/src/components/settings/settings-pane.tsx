@@ -1,9 +1,9 @@
 import { Component, MouseEvent, Fragment } from 'react';
-import { shallowIntl, createSetterContent, observer, obx, engineConfig, runInAction, globalContext } from '@alilc/lowcode-editor-core';
-import { createContent } from '@alilc/lowcode-utils';
-import { Skeleton } from '@alilc/lowcode-editor-skeleton';
-import { isSetterConfig, CustomView, isJSSlot } from '@alilc/lowcode-types';
-import { SettingField, isSettingField, SettingTopEntry, SettingEntry, ComponentMeta } from '@alilc/lowcode-designer';
+import { shallowIntl, createSetterContent, observer, obx, engineConfig, runInAction, globalContext } from '@digiforce-cloud/dvd-editor-core';
+import { createContent } from '@digiforce-cloud/dvd-utils';
+import { Skeleton } from '@digiforce-cloud/dvd-editor-skeleton';
+import { isSetterConfig, CustomView, isJSSlot } from '@digiforce-cloud/dvd-types';
+import { SettingField, isSettingField, SettingTopEntry, SettingEntry, ComponentMeta } from '@digiforce-cloud/dvd-designer';
 import { createField } from '../field';
 import PopupService, { PopupPipe } from '../popup';
 import { SkeletonContext } from '../../context';

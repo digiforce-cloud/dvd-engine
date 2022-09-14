@@ -1,6 +1,6 @@
-import { isFormEvent, compatibleLegaoSchema, getNodeSchemaById } from '@alilc/lowcode-utils';
-import { isNodeSchema } from '@alilc/lowcode-types';
-import { getConvertedExtraKey, getOriginalExtraKey } from '@alilc/lowcode-designer';
+import { isFormEvent, compatibleLegaoSchema, getNodeSchemaById } from '@digiforce-cloud/dvd-utils';
+import { isNodeSchema } from '@digiforce-cloud/dvd-types';
+import { getConvertedExtraKey, getOriginalExtraKey } from '@digiforce-cloud/dvd-designer';
 
 const utils = {
   isNodeSchema,

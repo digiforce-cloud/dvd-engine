@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import { EventEmitter } from 'events';
-import { obx, computed, autorun, makeObservable, runInAction, wrapWithEventSwitch, action } from '@alilc/lowcode-editor-core';
+import { obx, computed, autorun, makeObservable, runInAction, wrapWithEventSwitch, action } from '@digiforce-cloud/dvd-editor-core';
 import {
   isDOMText,
   isJSExpression,
@@ -16,10 +16,10 @@ import {
   CompositeValue,
   GlobalEvent,
   ComponentAction,
-} from '@alilc/lowcode-types';
-import { compatStage } from '@alilc/lowcode-utils';
-import { SettingTopEntry } from '@alilc/lowcode-designer';
-import { Node as ShellNode } from '@alilc/lowcode-shell';
+} from '@digiforce-cloud/dvd-types';
+import { compatStage } from '@digiforce-cloud/dvd-utils';
+import { SettingTopEntry } from '@digiforce-cloud/dvd-designer';
+import { Node as ShellNode } from '@digiforce-cloud/dvd-shell';
 import { Props, getConvertedExtraKey } from './props/props';
 import { DocumentModel } from '../document-model';
 import { NodeChildren } from './node-children';

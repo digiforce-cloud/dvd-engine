@@ -1,6 +1,6 @@
 import { Component, Fragment } from 'react';
 import classNames from 'classnames';
-import { observer, Focusable, focusTracker } from '@alilc/lowcode-editor-core';
+import { observer, Focusable, focusTracker } from '@digiforce-cloud/dvd-editor-core';
 import Area from '../area';
 import Panel from '../widget/panel';
 

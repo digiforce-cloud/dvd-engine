@@ -1,6 +1,6 @@
 import { PureComponent } from 'react';
-import { globalContext } from '@alilc/lowcode-editor-core';
-import { PluginProps } from '@alilc/lowcode-types';
+import { globalContext } from '@digiforce-cloud/dvd-editor-core';
+import { PluginProps } from '@digiforce-cloud/dvd-types';
 import { OutlinePane } from './pane';
 
 export const Backup = Symbol.for('backup-outline');

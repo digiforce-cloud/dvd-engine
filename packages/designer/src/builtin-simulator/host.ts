@@ -11,7 +11,7 @@ import {
   IReactionOptions,
   IReactionDisposer,
   makeObservable,
-} from '@alilc/lowcode-editor-core';
+} from '@digiforce-cloud/dvd-editor-core';
 import { EventEmitter } from 'events';
 import {
   ISimulatorHost,
@@ -36,7 +36,7 @@ import {
   hasOwnProperty,
   UtilsMetadata,
   getClosestNode,
-} from '@alilc/lowcode-utils';
+} from '@digiforce-cloud/dvd-utils';
 import {
   DragObjectType,
   DragNodeObject,
@@ -62,7 +62,7 @@ import {
   TransformStage,
   ActivityData,
   Package,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import { BuiltinSimulatorRenderer } from './renderer';
 import clipboard from '../designer/clipboard';
 import { LiveEditing } from './live-editing/live-editing';

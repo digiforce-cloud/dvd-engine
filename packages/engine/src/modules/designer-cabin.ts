@@ -7,9 +7,9 @@ import {
   isDragNodeDataObject,
   DragObjectType,
   isNode,
-} from '@alilc/lowcode-designer';
-import { Editor } from '@alilc/lowcode-editor-core';
-import { Dragon } from '@alilc/lowcode-shell';
+} from '@digiforce-cloud/dvd-designer';
+import { Editor } from '@digiforce-cloud/dvd-editor-core';
+import { Dragon } from '@digiforce-cloud/dvd-shell';
 
 export default function getDesignerCabin(editor: Editor) {
   const designer = editor.get('designer') as Designer;

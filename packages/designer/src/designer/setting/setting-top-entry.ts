@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
-import { CustomView, isCustomView, IEditor } from '@alilc/lowcode-types';
-import { computed } from '@alilc/lowcode-editor-core';
+import { CustomView, isCustomView, IEditor } from '@digiforce-cloud/dvd-types';
+import { computed } from '@digiforce-cloud/dvd-editor-core';
 import { SettingEntry } from './setting-entry';
 import { SettingField } from './setting-field';
 import { SettingPropEntry } from './setting-prop-entry';

@@ -14,11 +14,11 @@
 
  [![][issues-helper-image]][issues-helper-url] [![Issues need help][help-wanted-image]][help-wanted-url]
 
-[npm-image]: https://img.shields.io/npm/v/@alilc/lowcode-engine.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/@alilc/lowcode-engine
+[npm-image]: https://img.shields.io/npm/v/@digiforce-cloud/dvd-engine.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/@digiforce-cloud/dvd-engine
 
-[download-image]: https://img.shields.io/npm/dm/@alilc/lowcode-engine.svg?style=flat-square
-[download-url]: https://npmjs.org/package/@alilc/lowcode-engine
+[download-image]: https://img.shields.io/npm/dm/@digiforce-cloud/dvd-engine.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@digiforce-cloud/dvd-engine
 [help-wanted-image]: https://flat.badgen.net/github/label-issues/alibaba/lowcode-engine/help%20wanted/open
 [help-wanted-url]: https://github.com/alibaba/lowcode-engine/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 
@@ -52,13 +52,13 @@
 ## 🌰 使用示例
 
 ```bash
-npm install @alilc/lowcode-engine --save-dev
+npm install @digiforce-cloud/dvd-engine --save-dev
 ```
 
 > **TIPS：仅支持 cdn 方式引入，npm 包用于提供 typings 等代码提示能力**
 
 ```ts
-import { init, skeleton } from '@alilc/lowcode-engine';
+import { init, skeleton } from '@digiforce-cloud/dvd-engine';
 
 skeleton.add({
   area: 'topArea',
@@ -83,8 +83,8 @@ init(document.getElementById('lce'));
 ```json
 {
   "externals": {
-    "@alilc/lowcode-engine": "var window.AliLowCodeEngine",
-    "@alilc/lowcode-engine-ext": "var window.AliLowCodeEngineExt"
+    "@digiforce-cloud/dvd-engine": "var window.AliLowCodeEngine",
+    "@digiforce-cloud/dvd-engine-ext": "var window.AliLowCodeEngineExt"
   }
 }
 ```
@@ -92,23 +92,23 @@ init(document.getElementById('lce'));
 ### cdn 可选方式：
 #### 方式 1（推荐）：alifd cdn
 ```html
-https://alifd.alicdn.com/npm/@alilc/lowcode-engine@1.0.0/dist/js/engine-core.js
+https://alifd.alicdn.com/npm/@digiforce-cloud/dvd-engine@1.0.0/dist/js/engine-core.js
 
-https://alifd.alicdn.com/npm/@alilc/lowcode-react-simulator-renderer@1.0.0/dist/js/react-simulator-renderer.js
+https://alifd.alicdn.com/npm/@digiforce-cloud/dvd-react-simulator-renderer@1.0.0/dist/js/react-simulator-renderer.js
 ```
 
 #### 方式 2：unpkg
 ```html
-https://unpkg.com/@alilc/lowcode-engine@1.0.0/dist/js/engine-core.js
+https://unpkg.com/@digiforce-cloud/dvd-engine@1.0.0/dist/js/engine-core.js
 
-https://unpkg.com/@alilc/lowcode-react-simulator-renderer@1.0.0/dist/js/react-simulator-renderer.js
+https://unpkg.com/@digiforce-cloud/dvd-react-simulator-renderer@1.0.0/dist/js/react-simulator-renderer.js
 ```
 
 #### 方式 3：jsdelivr
 ```html
-https://cdn.jsdelivr.net/npm/@alilc/lowcode-engine@1.0.0/dist/js/engine-core.js
+https://cdn.jsdelivr.net/npm/@digiforce-cloud/dvd-engine@1.0.0/dist/js/engine-core.js
 
-https://cdn.jsdelivr.net/npm/@alilc/lowcode-react-simulator-renderer@1.0.0/dist/js/react-simulator-renderer.js
+https://cdn.jsdelivr.net/npm/@digiforce-cloud/dvd-react-simulator-renderer@1.0.0/dist/js/react-simulator-renderer.js
 ```
 
 #### 方式 4：使用自有 cdn

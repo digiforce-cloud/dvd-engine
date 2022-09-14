@@ -1,8 +1,8 @@
 import { Component, Fragment, PureComponent } from 'react';
 import classNames from 'classnames';
-import { computed, observer, Title } from '@alilc/lowcode-editor-core';
-import { TitleContent } from '@alilc/lowcode-types';
-import { getClosestNode } from '@alilc/lowcode-utils';
+import { computed, observer, Title } from '@digiforce-cloud/dvd-editor-core';
+import { TitleContent } from '@digiforce-cloud/dvd-types';
+import { getClosestNode } from '@digiforce-cloud/dvd-utils';
 
 import { BuiltinSimulatorHost } from '../host';
 

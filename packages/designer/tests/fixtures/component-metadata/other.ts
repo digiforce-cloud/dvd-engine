@@ -1,4 +1,4 @@
-import { ComponentMetadata } from "@alilc/lowcode-types";
+import { ComponentMetadata } from "@digiforce-cloud/dvd-types";
 export default {
   componentName: 'Other',
   npm: {

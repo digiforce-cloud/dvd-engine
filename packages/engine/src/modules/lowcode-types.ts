@@ -1,1 +1,1 @@
-export type { NodeSchema } from '@alilc/lowcode-types';
+export type { NodeSchema } from '@digiforce-cloud/dvd-types';

@@ -1,7 +1,7 @@
 import CodeGenerator from '../../src';
 import * as fs from 'fs';
 import * as path from 'path';
-import { ProjectSchema } from '@alilc/lowcode-types';
+import { ProjectSchema } from '@digiforce-cloud/dvd-types';
 import { createDiskPublisher } from '../helpers/solutionHelper';
 import { IceJsProjectBuilderOptions } from '../../src/solutions/icejs';
 

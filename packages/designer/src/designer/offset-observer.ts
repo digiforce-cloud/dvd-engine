@@ -1,5 +1,5 @@
-import { obx, computed, makeObservable } from '@alilc/lowcode-editor-core';
-import { uniqueId } from '@alilc/lowcode-utils';
+import { obx, computed, makeObservable } from '@digiforce-cloud/dvd-editor-core';
+import { uniqueId } from '@digiforce-cloud/dvd-utils';
 import { INodeSelector, IViewport } from '../simulator';
 import { isRootNode, Node } from '../document';
 

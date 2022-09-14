@@ -8,8 +8,8 @@ import {
   SettingPropEntry,
   SettingTopEntry,
   Selection,
-} from '@alilc/lowcode-shell';
-import { Node as InnerNode } from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-shell';
+import { Node as InnerNode } from '@digiforce-cloud/dvd-designer';
 
 export default {
   Project,

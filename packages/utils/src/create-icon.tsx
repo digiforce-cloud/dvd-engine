@@ -1,6 +1,6 @@
 import { isValidElement, ReactNode, createElement, cloneElement } from 'react';
 import { Icon } from '@alifd/next';
-import { IconType } from '@alilc/lowcode-types';
+import { IconType } from '@digiforce-cloud/dvd-types';
 import { isReactComponent } from './is-react';
 import { isESModule } from './is-es-module';
 

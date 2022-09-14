@@ -12,7 +12,7 @@ import {
   PropsMap,
   NodeData,
   NpmInfo,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import {
   IPageMeta,
   CodeGeneratorError,

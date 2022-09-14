@@ -2,7 +2,7 @@ import {
   DocumentModel as InnerDocumentModel,
   Node as InnerNode,
   Selection as InnerSelection,
-} from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-designer';
 import Node from './node';
 import { documentSymbol, selectionSymbol } from './symbols';
 

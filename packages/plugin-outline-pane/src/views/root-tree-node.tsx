@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import classNames from 'classnames';
-import { observer } from '@alilc/lowcode-editor-core';
-import { ModalNodesManager } from '@alilc/lowcode-designer';
+import { observer } from '@digiforce-cloud/dvd-editor-core';
+import { ModalNodesManager } from '@digiforce-cloud/dvd-designer';
 import TreeNode from '../tree-node';
 import TreeTitle from './tree-title';
 import TreeBranches from './tree-branches';

@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import { pipe } from 'fp-ts/function';
-import { NodeSchema, isNodeSchema, NodeDataType, CompositeValue } from '@alilc/lowcode-types';
+import { NodeSchema, isNodeSchema, NodeDataType, CompositeValue } from '@digiforce-cloud/dvd-types';
 
 import {
   IScope,

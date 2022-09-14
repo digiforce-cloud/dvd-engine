@@ -1,3 +1,3 @@
-import * as skeletonCabin from '@alilc/lowcode-editor-skeleton';
+import * as skeletonCabin from '@digiforce-cloud/dvd-editor-skeleton';
 
 export type IWidgetBaseConfig = skeletonCabin.IWidgetBaseConfig;

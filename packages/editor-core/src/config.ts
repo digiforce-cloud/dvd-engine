@@ -1,8 +1,8 @@
 import { ComponentType } from 'react';
 import { get as lodashGet } from 'lodash';
-import { isPlainObject } from '@alilc/lowcode-utils';
+import { isPlainObject } from '@digiforce-cloud/dvd-utils';
 
-import { RequestHandlersMap } from '@alilc/lowcode-datasource-types';
+import { RequestHandlersMap } from '@digiforce-cloud/dvd-datasource-types';
 
 import { getLogger } from './utils/logger';
 

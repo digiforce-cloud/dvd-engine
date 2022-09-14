@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-utils",
+  "name": "@digiforce-cloud/dvd-utils",
   "version": "1.0.14",
   "description": "Utils for Ali lowCode engine",
   "files": [
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@alifd/next": "^1.19.16",
-    "@alilc/lowcode-types": "1.0.14",
+    "@digiforce-cloud/dvd-types": "1.0.14",
     "lodash": "^4.17.21",
     "react": "^16",
     "zen-logger": "^1.1.0"

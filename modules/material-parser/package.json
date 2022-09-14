@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-material-parser",
+  "name": "@digiforce-cloud/dvd-material-parser",
   "version": "1.0.3",
   "description": "material parser for Ali lowCode engine",
   "main": "lib/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-plugin-outline-pane",
+  "name": "@digiforce-cloud/dvd-plugin-outline-pane",
   "version": "1.0.14",
   "description": "Outline pane for Ali lowCode engine",
   "files": [
@@ -13,10 +13,10 @@
   },
   "dependencies": {
     "@alifd/next": "^1.19.16",
-    "@alilc/lowcode-designer": "1.0.14",
-    "@alilc/lowcode-editor-core": "1.0.14",
-    "@alilc/lowcode-types": "1.0.14",
-    "@alilc/lowcode-utils": "1.0.14",
+    "@digiforce-cloud/dvd-designer": "1.0.14",
+    "@digiforce-cloud/dvd-editor-core": "1.0.14",
+    "@digiforce-cloud/dvd-types": "1.0.14",
+    "@digiforce-cloud/dvd-utils": "1.0.14",
     "classnames": "^2.2.6",
     "react": "^16",
     "react-dom": "^16.7.0"

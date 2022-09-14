@@ -9,7 +9,7 @@ import {
   TransformedComponentMetadata,
   OneOfType,
   ConfigureSupportEvent,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 
 function propConfigToFieldConfig(propConfig: PropConfig): FieldConfig {
   const { name, description } = propConfig;

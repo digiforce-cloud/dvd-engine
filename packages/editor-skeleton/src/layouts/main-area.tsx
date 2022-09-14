@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import classNames from 'classnames';
-import { observer } from '@alilc/lowcode-editor-core';
+import { observer } from '@digiforce-cloud/dvd-editor-core';
 import Area from '../area';
 import Panel from '../widget/panel';
 import Widget from '../widget/widget';

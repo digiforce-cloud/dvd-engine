@@ -547,7 +547,7 @@ codealike.json
     "test": "jest",
     "test:watch": "jest --watch",
     "test:update-snapshots": "cross-env UPDATE_EXPECTED=true npx jest",
-    "demo": "npm run build && npx @alilc/lowcode-code-generator --solution . --output generated demo-schema.json"
+    "demo": "npm run build && npx @digiforce-cloud/dvd-code-generator --solution . --output generated demo-schema.json"
   },
   "repository": {
     "type": "git",
@@ -559,8 +559,8 @@ codealike.json
     "registry": "https://registry.npm.xxx.com"
   },
   "dependencies": {
-    "@alilc/lowcode-code-generator": "^1.0.0-beta.16",
-    "@alilc/lowcode-types": "^1.0.0-beta.21",
+    "@digiforce-cloud/dvd-code-generator": "^1.0.0-beta.16",
+    "@digiforce-cloud/dvd-types": "^1.0.0-beta.21",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -626,7 +626,7 @@ codealike.json
     },
     {
       file: 'src/index.ts',
-      content: `import CodeGen from '@alilc/lowcode-code-generator';
+      content: `import CodeGen from '@digiforce-cloud/dvd-code-generator';
 
 import examplePlugin from './plugins/example';
 
@@ -710,7 +710,7 @@ export default function createHelloWorldProjectBuilder() {
   COMMON_CHUNK_NAME,
   CLASS_DEFINE_CHUNK_NAME,
   DEFAULT_LINK_AFTER,
-} from '@alilc/lowcode-code-generator';
+} from '@digiforce-cloud/dvd-code-generator';
 
 export interface PluginConfig {
   fileType: string;

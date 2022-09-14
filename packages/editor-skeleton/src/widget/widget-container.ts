@@ -1,5 +1,5 @@
-import { obx, computed, makeObservable } from '@alilc/lowcode-editor-core';
-import { hasOwnProperty } from '@alilc/lowcode-utils';
+import { obx, computed, makeObservable } from '@digiforce-cloud/dvd-editor-core';
+import { hasOwnProperty } from '@digiforce-cloud/dvd-utils';
 import { isPanel } from './panel';
 
 export interface WidgetItem {

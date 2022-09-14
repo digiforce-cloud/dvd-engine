@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import { observer } from '@alilc/lowcode-editor-core';
-import { SettingTopEntry, SettingField } from '@alilc/lowcode-designer';
+import { observer } from '@digiforce-cloud/dvd-editor-core';
+import { SettingTopEntry, SettingField } from '@digiforce-cloud/dvd-designer';
 import StageChain from './stage-chain';
 import Stage from './stage';
 import { Skeleton } from '../../skeleton';

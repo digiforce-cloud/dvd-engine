@@ -1,5 +1,5 @@
-import { obx, computed, makeObservable } from '@alilc/lowcode-editor-core';
-import { uniqueId } from '@alilc/lowcode-utils';
+import { obx, computed, makeObservable } from '@digiforce-cloud/dvd-editor-core';
+import { uniqueId } from '@digiforce-cloud/dvd-utils';
 import { createElement, ReactNode, ReactInstance } from 'react';
 import { Skeleton } from '../skeleton';
 import { PanelDockConfig } from '../types';

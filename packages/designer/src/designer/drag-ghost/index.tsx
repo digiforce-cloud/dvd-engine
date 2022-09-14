@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { observer, obx, Title, makeObservable } from '@alilc/lowcode-editor-core';
+import { observer, obx, Title, makeObservable } from '@digiforce-cloud/dvd-editor-core';
 import { Designer } from '../designer';
 import { DragObject, isDragNodeObject, isDragNodeDataObject } from '../dragon';
 import { isSimulatorHost } from '../../simulator';

@@ -2,8 +2,8 @@
 /* eslint-disable max-len */
 /* eslint-disable react/prop-types */
 import classnames from 'classnames';
-import { create as createDataSourceEngine } from '@alilc/lowcode-datasource-engine/interpret';
-import { isI18nData, isJSExpression, isJSFunction, NodeSchema, NodeData, JSONValue, CompositeValue } from '@alilc/lowcode-types';
+import { create as createDataSourceEngine } from '@digiforce-cloud/dvd-datasource-engine/interpret';
+import { isI18nData, isJSExpression, isJSFunction, NodeSchema, NodeData, JSONValue, CompositeValue } from '@digiforce-cloud/dvd-types';
 import adapter from '../adapter';
 import divFactory from '../components/Div';
 import visualDomFactory from '../components/VisualDom';

@@ -1,4 +1,4 @@
-import { isJSBlock, isJSSlot, ActivityType, NodeSchema, PageSchema, RootSchema } from '@alilc/lowcode-types';
+import { isJSBlock, isJSSlot, ActivityType, NodeSchema, PageSchema, RootSchema } from '@digiforce-cloud/dvd-types';
 import { isVariable } from './misc';
 import { isPlainObject } from './is-plain-object';
 

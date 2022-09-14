@@ -1,4 +1,4 @@
-import { ResultDir } from '@alilc/lowcode-types';
+import { ResultDir } from '@digiforce-cloud/dvd-types';
 import { IProjectTemplate } from '../../../../../types';
 import { generateStaticFiles } from './static-files';
 

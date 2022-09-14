@@ -1,5 +1,5 @@
 import { isObject } from 'lodash';
-import { css } from '@alilc/lowcode-utils';
+import { css } from '@digiforce-cloud/dvd-utils';
 
 const { toCss } = css;
 const engine = (window as any).VisualEngine;

@@ -1,8 +1,8 @@
 
 import { isI18NObject } from './is-object';
 import { get } from 'lodash';
-import { ComponentMeta } from '@alilc/lowcode-designer';
-import { TransformStage } from '@alilc/lowcode-types';
+import { ComponentMeta } from '@digiforce-cloud/dvd-designer';
+import { TransformStage } from '@digiforce-cloud/dvd-types';
 interface Variable {
   type: 'variable';
   variable: string;

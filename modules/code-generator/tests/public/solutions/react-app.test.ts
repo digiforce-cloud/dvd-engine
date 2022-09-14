@@ -12,7 +12,7 @@ import {
 
 import CodeGenerator from '../../../src';
 
-import type { ProjectSchema } from '@alilc/lowcode-types';
+import type { ProjectSchema } from '@digiforce-cloud/dvd-types';
 
 jest.setTimeout(15 * 1000);
 

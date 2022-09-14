@@ -1,13 +1,13 @@
-import { CompositeObject, ComponentAction } from '@alilc/lowcode-types';
+import { CompositeObject, ComponentAction } from '@digiforce-cloud/dvd-types';
 import Logger from 'zen-logger';
 import {
   Hotkey,
   Skeleton,
   Project,
   Event, Material,
-} from '@alilc/lowcode-shell';
-import { EngineConfig } from '@alilc/lowcode-editor-core';
-import { MetadataTransducer } from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-shell';
+import { EngineConfig } from '@digiforce-cloud/dvd-editor-core';
+import { MetadataTransducer } from '@digiforce-cloud/dvd-designer';
 import { Setters } from '../types';
 
 export type PreferenceValueType = string | number | boolean;

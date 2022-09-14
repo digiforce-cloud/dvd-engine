@@ -10,7 +10,7 @@ import {
   JSExpression,
   JSFunction,
   JSSlot,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 
 import { IParseResult } from './intermediate';
 import { IScopeBindings } from '../utils/ScopeBindings';

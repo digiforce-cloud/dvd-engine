@@ -1,4 +1,4 @@
-import { SettingEntry } from '@alilc/lowcode-designer';
+import { SettingEntry } from '@digiforce-cloud/dvd-designer';
 import { settingTopEntrySymbol } from './symbols';
 import Node from './node';
 import SettingPropEntry from './setting-prop-entry';

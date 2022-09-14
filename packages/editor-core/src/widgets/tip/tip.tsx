@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import { TipConfig } from '@alilc/lowcode-types';
-import { uniqueId } from '@alilc/lowcode-utils';
+import { TipConfig } from '@digiforce-cloud/dvd-types';
+import { uniqueId } from '@digiforce-cloud/dvd-utils';
 import { postTip } from './tip-handler';
 
 export class Tip extends Component<TipConfig> {

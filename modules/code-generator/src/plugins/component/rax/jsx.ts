@@ -4,7 +4,7 @@ import {
   NpmInfo,
   CompositeValue,
   isJSExpression,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 
 import _ from 'lodash';
 import changeCase from 'change-case';

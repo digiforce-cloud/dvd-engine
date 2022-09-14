@@ -1,6 +1,6 @@
-import { untracked, computed, obx, engineConfig, action, makeObservable, mobx, runInAction } from '@alilc/lowcode-editor-core';
-import { CompositeValue, GlobalEvent, isJSExpression, isJSSlot, JSSlot, SlotSchema } from '@alilc/lowcode-types';
-import { uniqueId, isPlainObject, hasOwnProperty, compatStage } from '@alilc/lowcode-utils';
+import { untracked, computed, obx, engineConfig, action, makeObservable, mobx, runInAction } from '@digiforce-cloud/dvd-editor-core';
+import { CompositeValue, GlobalEvent, isJSExpression, isJSSlot, JSSlot, SlotSchema } from '@digiforce-cloud/dvd-types';
+import { uniqueId, isPlainObject, hasOwnProperty, compatStage } from '@digiforce-cloud/dvd-utils';
 import { valueToSource } from './value-to-source';
 import { Props } from './props';
 import { SlotNode, Node } from '../node';

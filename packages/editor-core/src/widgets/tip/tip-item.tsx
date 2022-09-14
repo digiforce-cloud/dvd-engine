@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import classNames from 'classnames';
-import { TipConfig } from '@alilc/lowcode-types';
+import { TipConfig } from '@digiforce-cloud/dvd-types';
 import { intl } from '../../intl';
 import { resolvePosition } from './utils';
 import { tipHandler } from './tip-handler';

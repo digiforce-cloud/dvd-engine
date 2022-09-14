@@ -1,4 +1,4 @@
-import { IconType, TitleContent, isI18nData, TipContent, isTitleConfig } from '@alilc/lowcode-types';
+import { IconType, TitleContent, isI18nData, TipContent, isTitleConfig } from '@digiforce-cloud/dvd-types';
 import { isValidElement } from 'react';
 
 export function composeTitle(title?: TitleContent, icon?: IconType, tip?: TipContent, tipAsTitle?: boolean, noIcon?: boolean) {

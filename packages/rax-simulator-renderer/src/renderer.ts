@@ -1,7 +1,7 @@
-import { BuiltinSimulatorRenderer, Component, DocumentModel, Node, NodeInstance } from '@alilc/lowcode-designer';
-import { ComponentSchema, NodeSchema, NpmInfo, RootSchema, TransformStage } from '@alilc/lowcode-types';
-import { Asset, compatibleLegaoSchema, cursor, isElement, isESModule, isPlainObject, isReactComponent, setNativeSelection } from '@alilc/lowcode-utils';
-import LowCodeRenderer from '@alilc/lowcode-rax-renderer';
+import { BuiltinSimulatorRenderer, Component, DocumentModel, Node, NodeInstance } from '@digiforce-cloud/dvd-designer';
+import { ComponentSchema, NodeSchema, NpmInfo, RootSchema, TransformStage } from '@digiforce-cloud/dvd-types';
+import { Asset, compatibleLegaoSchema, cursor, isElement, isESModule, isPlainObject, isReactComponent, setNativeSelection } from '@digiforce-cloud/dvd-utils';
+import LowCodeRenderer from '@digiforce-cloud/dvd-rax-renderer';
 import { computed, observable as obx, untracked, makeObservable, configure } from 'mobx';
 import DriverUniversal from 'driver-universal';
 import { EventEmitter } from 'events';

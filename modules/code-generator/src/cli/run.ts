@@ -9,7 +9,7 @@ import * as path from 'path';
 import { getErrorMessage } from '../utils/errors';
 import CodeGenerator from '..';
 import type { IProjectBuilder } from '..';
-import type { ProjectSchema } from '@alilc/lowcode-types';
+import type { ProjectSchema } from '@digiforce-cloud/dvd-types';
 
 /**
  * 执行出码 CLI 命令
@@ -82,7 +82,7 @@ async function getProjectBuilderFactory(
 
   const solutionPackageName = isLocalSolution(solution)
     ? solution
-    : `${solution.startsWith('@') ? solution : `@alilc/lowcode-solution-${solution}`}`;
+    : `${solution.startsWith('@') ? solution : `@digiforce-cloud/dvd-solution-${solution}`}`;
 
   if (!isLocalSolution(solution)) {
     if (!quiet) {

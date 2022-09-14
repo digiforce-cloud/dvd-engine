@@ -1,5 +1,5 @@
 import { ComponentInstance, NodeInstance, Component } from '../simulator';
-import { NodeSchema } from '@alilc/lowcode-types';
+import { NodeSchema } from '@digiforce-cloud/dvd-types';
 
 export interface BuiltinSimulatorRenderer {
   readonly isSimulatorRenderer: true;

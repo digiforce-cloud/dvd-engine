@@ -4,11 +4,11 @@ import React from "react";
 
 import { Form, Input, NumberPicker, Select, Button } from "@alifd/next";
 
-import { createUrlParamsHandler as __$$createUrlParamsRequestHandler } from "@alilc/lowcode-datasource-url-params-handler";
+import { createUrlParamsHandler as __$$createUrlParamsRequestHandler } from "@digiforce-cloud/dvd-datasource-url-params-handler";
 
-import { createFetchHandler as __$$createFetchRequestHandler } from "@alilc/lowcode-datasource-fetch-handler";
+import { createFetchHandler as __$$createFetchRequestHandler } from "@digiforce-cloud/dvd-datasource-fetch-handler";
 
-import { create as __$$createDataSourceEngine } from "@alilc/lowcode-datasource-engine/runtime";
+import { create as __$$createDataSourceEngine } from "@digiforce-cloud/dvd-datasource-engine/runtime";
 
 import utils, { RefsManager } from "../../utils";
 

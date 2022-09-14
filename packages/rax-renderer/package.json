@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-rax-renderer",
+  "name": "@digiforce-cloud/dvd-rax-renderer",
   "version": "1.0.14",
   "description": "Rax renderer for Ali lowCode engine",
   "main": "lib/index.js",
@@ -30,8 +30,8 @@
     "build": "build-scripts build"
   },
   "dependencies": {
-    "@alilc/lowcode-renderer-core": "1.0.14",
-    "@alilc/lowcode-utils": "1.0.14",
+    "@digiforce-cloud/dvd-renderer-core": "1.0.14",
+    "@digiforce-cloud/dvd-utils": "1.0.14",
     "rax-find-dom-node": "^1.0.1"
   },
   "devDependencies": {
@@ -48,6 +48,6 @@
     "url": "https://github.com/alibaba/lowcode-engine/tree/main/packages/rax-renderer"
   },
   "license": "MIT",
-  "homepage": "https://unpkg.alibaba-inc.com/@alilc/lowcode-rax-renderer@0.1.2/build/index.html",
+  "homepage": "https://unpkg.alibaba-inc.com/@digiforce-cloud/dvd-rax-renderer@0.1.2/build/index.html",
   "gitHead": "2669f179e6f899d395ce1942d0fe04f9c5ed48a6"
 }

@@ -2,8 +2,8 @@ import {
   FieldConfig,
   TransformedComponentMetadata,
   isJSFunction,
-} from '@alilc/lowcode-types';
-import { isPlainObject } from '@alilc/lowcode-utils';
+} from '@digiforce-cloud/dvd-types';
+import { isPlainObject } from '@digiforce-cloud/dvd-utils';
 
 const leadingFnRe = /^function/;
 const leadingFnNameRe = /^\w+\s*\(/;

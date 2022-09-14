@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import classNames from 'classnames';
-import { observer, Title } from '@alilc/lowcode-editor-core';
-import { ExclusiveGroup } from '@alilc/lowcode-designer';
+import { observer, Title } from '@digiforce-cloud/dvd-editor-core';
+import { ExclusiveGroup } from '@digiforce-cloud/dvd-designer';
 import TreeNode from '../tree-node';
 import TreeNodeView from './tree-node';
 import { intlNode } from '../locale';

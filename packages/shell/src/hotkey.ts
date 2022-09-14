@@ -1,5 +1,5 @@
-import { hotkey, HotkeyCallback } from '@alilc/lowcode-editor-core';
-import { Disposable } from '@alilc/lowcode-types';
+import { hotkey, HotkeyCallback } from '@digiforce-cloud/dvd-editor-core';
+import { Disposable } from '@digiforce-cloud/dvd-types';
 
 export default class Hotkey {
   get callbacks() {

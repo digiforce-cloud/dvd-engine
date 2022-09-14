@@ -1,7 +1,7 @@
 import {
   Detecting as InnerDetecting,
   DocumentModel as InnerDocumentModel,
-} from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-designer';
 import { documentSymbol, detectingSymbol } from './symbols';
 
 export default class Detecting {

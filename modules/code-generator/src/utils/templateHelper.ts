@@ -1,4 +1,4 @@
-import { ResultDir, ResultFile } from '@alilc/lowcode-types';
+import { ResultDir, ResultFile } from '@digiforce-cloud/dvd-types';
 import { createResultDir, addDirectory, addFile } from './resultHelper';
 
 type FuncFileGenerator = () => [string[], ResultFile];

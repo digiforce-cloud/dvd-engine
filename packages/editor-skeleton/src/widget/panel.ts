@@ -1,10 +1,10 @@
 import { EventEmitter } from 'events';
 import { createElement, ReactNode } from 'react';
-import { obx, computed, makeObservable } from '@alilc/lowcode-editor-core';
-import { uniqueId, createContent } from '@alilc/lowcode-utils';
-import { TitleContent } from '@alilc/lowcode-types';
+import { obx, computed, makeObservable } from '@digiforce-cloud/dvd-editor-core';
+import { uniqueId, createContent } from '@digiforce-cloud/dvd-utils';
+import { TitleContent } from '@digiforce-cloud/dvd-types';
 import WidgetContainer from './widget-container';
-import { getEvent } from '@alilc/lowcode-shell';
+import { getEvent } from '@digiforce-cloud/dvd-shell';
 import { PanelConfig, HelpTipConfig } from '../types';
 import { TitledPanelView, TabsPanelView, PanelView } from '../components/widget-views';
 import { Skeleton } from '../skeleton';

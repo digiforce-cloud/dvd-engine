@@ -1,4 +1,4 @@
-import { isElement } from '@alilc/lowcode-utils';
+import { isElement } from '@digiforce-cloud/dvd-utils';
 
 // a range for test TextNode clientRect
 const cycleRange = document.createRange();

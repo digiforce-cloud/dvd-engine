@@ -1,10 +1,10 @@
 import { Overlay } from '@alifd/next';
 import React from 'react';
-import { Title, globalContext, Editor } from '@alilc/lowcode-editor-core';
-import { canClickNode } from '@alilc/lowcode-utils';
+import { Title, globalContext, Editor } from '@digiforce-cloud/dvd-editor-core';
+import { canClickNode } from '@digiforce-cloud/dvd-utils';
 import './index.less';
 
-import { Node, ParentalNode } from '@alilc/lowcode-designer';
+import { Node, ParentalNode } from '@digiforce-cloud/dvd-designer';
 
 const { Popup } = Overlay;
 

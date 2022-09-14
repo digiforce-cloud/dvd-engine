@@ -1,6 +1,6 @@
 import '../fixtures/window';
 import { set } from '../utils';
-import { Editor, globalContext } from '@alilc/lowcode-editor-core';
+import { Editor, globalContext } from '@digiforce-cloud/dvd-editor-core';
 import { Project } from '../../src/project/project';
 import { DocumentModel } from '../../src/document/document-model';
 import { ScrollTarget, Scroller } from '../../src/designer/scroller';

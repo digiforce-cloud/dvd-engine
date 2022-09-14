@@ -1,5 +1,5 @@
 import '../fixtures/window';
-import { Editor, engineConfig } from '@alilc/lowcode-editor-core';
+import { Editor, engineConfig } from '@digiforce-cloud/dvd-editor-core';
 import { LowCodePluginManager } from '../../src/plugin/plugin-manager';
 import { ILowCodePluginContext, ILowCodePluginManager } from '../../src/plugin/plugin-types';
 

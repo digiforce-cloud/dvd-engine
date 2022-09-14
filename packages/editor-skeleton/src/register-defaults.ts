@@ -1,4 +1,4 @@
-import { registerMetadataTransducer } from '@alilc/lowcode-designer';
+import { registerMetadataTransducer } from '@digiforce-cloud/dvd-designer';
 import parseJSFunc from './transducers/parse-func';
 import parseProps from './transducers/parse-props';
 import addonCombine from './transducers/addon-combine';

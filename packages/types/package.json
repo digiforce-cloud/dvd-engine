@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-types",
+  "name": "@digiforce-cloud/dvd-types",
   "version": "1.0.14",
   "description": "Types for Ali lowCode engine",
   "files": [
@@ -12,7 +12,7 @@
     "build": "build-scripts build --skip-demo"
   },
   "dependencies": {
-    "@alilc/lowcode-datasource-types": "^1.0.0",
+    "@digiforce-cloud/dvd-datasource-types": "^1.0.0",
     "react": "^16.9",
     "strict-event-emitter-types": "^2.0.0"
   },

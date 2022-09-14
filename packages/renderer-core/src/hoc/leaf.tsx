@@ -1,7 +1,7 @@
-import { BuiltinSimulatorHost, Node, PropChangeOptions } from '@alilc/lowcode-designer';
-import { GlobalEvent, TransformStage, NodeSchema } from '@alilc/lowcode-types';
-import { isReactComponent, cloneEnumerableProperty } from '@alilc/lowcode-utils';
-import { EngineOptions } from '@alilc/lowcode-editor-core';
+import { BuiltinSimulatorHost, Node, PropChangeOptions } from '@digiforce-cloud/dvd-designer';
+import { GlobalEvent, TransformStage, NodeSchema } from '@digiforce-cloud/dvd-types';
+import { isReactComponent, cloneEnumerableProperty } from '@digiforce-cloud/dvd-utils';
+import { EngineOptions } from '@digiforce-cloud/dvd-editor-core';
 import { debounce } from '../utils/common';
 import adapter from '../adapter';
 import * as types from '../types/index';

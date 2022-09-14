@@ -11,9 +11,9 @@
     "lint": "npm run eslint && npm run stylelint"
   },
   "dependencies": {
-    "@alilc/lowcode-datasource-engine": "latest",
-    "@alilc/lowcode-datasource-url-params-handler": "latest",
-    "@alilc/lowcode-datasource-fetch-handler": "latest",
+    "@digiforce-cloud/dvd-datasource-engine": "latest",
+    "@digiforce-cloud/dvd-datasource-url-params-handler": "latest",
+    "@digiforce-cloud/dvd-datasource-fetch-handler": "latest",
     "universal-env": "^3.2.0",
     "intl-messageformat": "^9.3.6",
     "rax": "^1.1.0",

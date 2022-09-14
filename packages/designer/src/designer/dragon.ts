@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
-import { obx, makeObservable } from '@alilc/lowcode-editor-core';
-import { NodeSchema } from '@alilc/lowcode-types';
-import { setNativeSelection, cursor } from '@alilc/lowcode-utils';
+import { obx, makeObservable } from '@digiforce-cloud/dvd-editor-core';
+import { NodeSchema } from '@digiforce-cloud/dvd-types';
+import { setNativeSelection, cursor } from '@digiforce-cloud/dvd-utils';
 import { DropLocation } from './location';
 import { Node, DocumentModel } from '../document';
 import { ISimulatorHost, isSimulatorHost, NodeInstance, ComponentInstance } from '../simulator';

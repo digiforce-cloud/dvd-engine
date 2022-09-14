@@ -1,5 +1,5 @@
-import { getSetter, registerSetter, getSettersMap, RegisteredSetter } from '@alilc/lowcode-editor-core';
-import { CustomView } from '@alilc/lowcode-types';
+import { getSetter, registerSetter, getSettersMap, RegisteredSetter } from '@digiforce-cloud/dvd-editor-core';
+import { CustomView } from '@digiforce-cloud/dvd-types';
 
 export default class Setters {
   /**

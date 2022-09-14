@@ -1,4 +1,4 @@
-import { cloneEnumerableProperty } from '@alilc/lowcode-utils';
+import { cloneEnumerableProperty } from '@digiforce-cloud/dvd-utils';
 import adapter from '../adapter';
 
 export function compWrapper(Comp: any) {

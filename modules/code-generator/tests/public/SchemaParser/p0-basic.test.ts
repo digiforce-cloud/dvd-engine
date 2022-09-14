@@ -1,4 +1,4 @@
-import { ProjectSchema } from '@alilc/lowcode-types';
+import { ProjectSchema } from '@digiforce-cloud/dvd-types';
 import { SchemaParser } from '../../../src';
 import SCHEMA_WITH_SLOT from './data/schema-with-slot.json';
 

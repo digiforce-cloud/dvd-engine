@@ -1,5 +1,5 @@
 import { ReactNode, createElement } from 'react';
-import { TitleContent } from '@alilc/lowcode-types';
+import { TitleContent } from '@digiforce-cloud/dvd-types';
 import './index.less';
 import { Field, PopupField, EntryField, PlainField } from './fields';
 

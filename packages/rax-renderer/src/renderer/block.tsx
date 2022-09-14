@@ -1,4 +1,4 @@
-import { blockRendererFactory, types } from '@alilc/lowcode-renderer-core';
+import { blockRendererFactory, types } from '@digiforce-cloud/dvd-renderer-core';
 
 export default function raxBlockRendererFactory() {
   const OriginBlock = blockRendererFactory();

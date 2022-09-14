@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import { TipConfig } from '@alilc/lowcode-types';
+import { TipConfig } from '@digiforce-cloud/dvd-types';
 
 export interface TipOptions extends TipConfig {
   target: HTMLElement;

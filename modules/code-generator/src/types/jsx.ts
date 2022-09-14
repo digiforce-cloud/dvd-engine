@@ -1,4 +1,4 @@
-import { NodeSchema, CompositeValue } from '@alilc/lowcode-types';
+import { NodeSchema, CompositeValue } from '@digiforce-cloud/dvd-types';
 import { HandlerSet, BaseGenerator, NodeGenerator } from './core';
 
 export enum PIECE_TYPE {

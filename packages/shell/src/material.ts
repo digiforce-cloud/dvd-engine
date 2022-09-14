@@ -1,4 +1,4 @@
-import { Editor } from '@alilc/lowcode-editor-core';
+import { Editor } from '@digiforce-cloud/dvd-editor-core';
 import {
   Designer,
   registerMetadataTransducer,
@@ -8,9 +8,9 @@ import {
   removeBuiltinComponentAction,
   modifyBuiltinComponentAction,
   isComponentMeta,
-} from '@alilc/lowcode-designer';
-import { AssetsJson } from '@alilc/lowcode-utils';
-import { ComponentAction, ComponentMetadata } from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-designer';
+import { AssetsJson } from '@digiforce-cloud/dvd-utils';
+import { ComponentAction, ComponentMetadata } from '@digiforce-cloud/dvd-types';
 import { editorSymbol, designerSymbol } from './symbols';
 import ComponentMeta from './component-meta';
 

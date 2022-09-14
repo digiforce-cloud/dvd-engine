@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { TipContainer, observer } from '@alilc/lowcode-editor-core';
+import { TipContainer, observer } from '@digiforce-cloud/dvd-editor-core';
 import classNames from 'classnames';
 import { Skeleton } from '../skeleton';
 import TopArea from './top-area';
@@ -12,7 +12,7 @@ import BottomArea from './bottom-area';
 import RightArea from './right-area';
 import './workbench.less';
 import { SkeletonContext } from '../context';
-import { EditorConfig, PluginClassSet } from '@alilc/lowcode-types';
+import { EditorConfig, PluginClassSet } from '@digiforce-cloud/dvd-types';
 
 @observer
 export class Workbench extends Component<{ skeleton: Skeleton; config?: EditorConfig; components?: PluginClassSet; className?: string; topAreaItemClassName?: string }> {

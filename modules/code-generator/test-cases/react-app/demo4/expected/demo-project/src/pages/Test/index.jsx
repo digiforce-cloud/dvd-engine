@@ -11,9 +11,9 @@ import {
 
 import { AliSearchTable as AliSearchTableExport } from "@alife/mc-assets-1935/build/lowcode/index.js";
 
-import { createFetchHandler as __$$createFetchRequestHandler } from "@alilc/lowcode-datasource-fetch-handler";
+import { createFetchHandler as __$$createFetchRequestHandler } from "@digiforce-cloud/dvd-datasource-fetch-handler";
 
-import { create as __$$createDataSourceEngine } from "@alilc/lowcode-datasource-engine/runtime";
+import { create as __$$createDataSourceEngine } from "@digiforce-cloud/dvd-datasource-engine/runtime";
 
 import utils, { RefsManager } from "../../utils";
 

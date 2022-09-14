@@ -9,7 +9,7 @@ import Card from '@alife/right-design-card';
 
 import Text from 'rax-text';
 
-import { create as __$$createDataSourceEngine } from '@alilc/lowcode-datasource-engine/runtime';
+import { create as __$$createDataSourceEngine } from '@digiforce-cloud/dvd-datasource-engine/runtime';
 
 import { isMiniApp as __$$isMiniApp } from 'universal-env';
 

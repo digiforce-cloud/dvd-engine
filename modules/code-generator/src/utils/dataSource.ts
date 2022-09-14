@@ -22,7 +22,7 @@ export function buildDataSourceDependencies(
 ): Record<string, string> {
   return {
     // 数据源引擎的依赖包
-    [cfg.enginePackage || '@alilc/lowcode-datasource-engine']: cfg.engineVersion || 'latest',
+    [cfg.enginePackage || '@digiforce-cloud/dvd-datasource-engine']: cfg.engineVersion || 'latest',
 
     // 各种数据源的 handlers 的依赖包
     ...(ir.dataSourcesTypes || []).reduce(
@@ -37,7 +37,7 @@ export function buildDataSourceDependencies(
   function getDataSourceHandlerPackageName(dsType: string) {
     return (
       cfg.handlersPackages?.[dsType] ||
-      `@alilc/lowcode-datasource-${changeCase.kebab(dsType)}-handler`
+      `@digiforce-cloud/dvd-datasource-${changeCase.kebab(dsType)}-handler`
     );
   }
 }

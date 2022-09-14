@@ -1,7 +1,7 @@
 import { ReactNode, createElement } from 'react';
-import { makeObservable, obx } from '@alilc/lowcode-editor-core';
-import { uniqueId, createContent } from '@alilc/lowcode-utils';
-import { getEvent } from '@alilc/lowcode-shell';
+import { makeObservable, obx } from '@digiforce-cloud/dvd-editor-core';
+import { uniqueId, createContent } from '@digiforce-cloud/dvd-utils';
+import { getEvent } from '@digiforce-cloud/dvd-shell';
 import { DockConfig } from '../types';
 import { Skeleton } from '../skeleton';
 import { DockView, WidgetView } from '../components/widget-views';

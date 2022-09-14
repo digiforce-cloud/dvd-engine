@@ -5,7 +5,7 @@ import {
   addonRendererFactory,
   tempRendererFactory,
   rendererFactory,
-} from '@alilc/lowcode-renderer-core';
+} from '@digiforce-cloud/dvd-renderer-core';
 import pageRendererFactory from './renderer/page';
 import componentRendererFactory from './renderer/component';
 import blockRendererFactory from './renderer/block';

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { isValidElement } from 'react';
-import { isElement } from '@alilc/lowcode-utils';
-import { PropConfig } from '@alilc/lowcode-types';
+import { isElement } from '@digiforce-cloud/dvd-utils';
+import { PropConfig } from '@digiforce-cloud/dvd-types';
 
 export const primitiveTypes = [
   'string',

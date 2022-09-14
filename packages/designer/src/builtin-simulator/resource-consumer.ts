@@ -1,4 +1,4 @@
-import { autorun, obx } from '@alilc/lowcode-editor-core';
+import { autorun, obx } from '@digiforce-cloud/dvd-editor-core';
 import { BuiltinSimulatorHost } from './host';
 import { EventEmitter } from 'events';
 import { BuiltinSimulatorRenderer, isSimulatorRenderer } from './renderer';

@@ -1,5 +1,5 @@
 import { ReactElement, ComponentType } from 'react';
-import { TitleContent, IconType, I18nData, TipContent } from '@alilc/lowcode-types';
+import { TitleContent, IconType, I18nData, TipContent } from '@digiforce-cloud/dvd-types';
 import { IWidget } from './widget/widget';
 
 /**

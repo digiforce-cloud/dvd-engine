@@ -6,7 +6,7 @@ import {
   InterpretDataSourceConfig,
   isJSExpression,
   isJSFunction,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import changeCase from 'change-case';
 
 import {
@@ -88,7 +88,7 @@ const pluginFactory: BuilderComponentPluginFactory<PluginConfig> = (config?) => 
           const handlerFactoryExportName = `create${changeCase.pascal(dsType)}Handler`;
           const handlerPkgName =
             cfg.datasourceConfig?.handlersPackages?.[dsType] ||
-            `@alilc/lowcode-datasource-${changeCase.kebab(dsType)}-handler`;
+            `@digiforce-cloud/dvd-datasource-${changeCase.kebab(dsType)}-handler`;
 
           next.chunks.push({
             type: ChunkType.STRING,
@@ -109,7 +109,7 @@ const pluginFactory: BuilderComponentPluginFactory<PluginConfig> = (config?) => 
         fileType: FileType.JSX,
         name: COMMON_CHUNK_NAME.ExternalDepsImport,
         content: `
-          import { create as __$$createDataSourceEngine } from '@alilc/lowcode-datasource-engine/runtime';
+          import { create as __$$createDataSourceEngine } from '@digiforce-cloud/dvd-datasource-engine/runtime';
         `,
         linkAfter: [],
       });

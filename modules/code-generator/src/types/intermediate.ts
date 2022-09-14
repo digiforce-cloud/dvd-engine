@@ -1,4 +1,4 @@
-import { I18nMap, UtilsMap, ContainerSchema, JSONObject } from '@alilc/lowcode-types';
+import { I18nMap, UtilsMap, ContainerSchema, JSONObject } from '@digiforce-cloud/dvd-types';
 
 import { IDependency, INpmPackage } from './deps';
 import { ICompAnalyzeResult } from './analyze';

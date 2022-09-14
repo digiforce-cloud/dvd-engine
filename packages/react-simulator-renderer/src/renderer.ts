@@ -16,11 +16,11 @@ import {
   isPlainObject,
   AssetLoader,
   getProjectUtils,
-} from '@alilc/lowcode-utils';
-import { ComponentSchema, TransformStage, NodeSchema } from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-utils';
+import { ComponentSchema, TransformStage, NodeSchema } from '@digiforce-cloud/dvd-types';
 // just use types
-import { BuiltinSimulatorRenderer, NodeInstance, Component, DocumentModel, Node } from '@alilc/lowcode-designer';
-import LowCodeRenderer from '@alilc/lowcode-react-renderer';
+import { BuiltinSimulatorRenderer, NodeInstance, Component, DocumentModel, Node } from '@digiforce-cloud/dvd-designer';
+import LowCodeRenderer from '@digiforce-cloud/dvd-react-renderer';
 import { createMemoryHistory, MemoryHistory } from 'history';
 import Slot from './builtin-components/slot';
 import Leaf from './builtin-components/leaf';

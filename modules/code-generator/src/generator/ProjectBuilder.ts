@@ -1,4 +1,4 @@
-import { ResultDir, ResultFile, ProjectSchema } from '@alilc/lowcode-types';
+import { ResultDir, ResultFile, ProjectSchema } from '@digiforce-cloud/dvd-types';
 
 import {
   IModuleBuilder,

@@ -3,7 +3,7 @@ const os = require('os');
 const execa = require('execa');
 
 async function start() {
-    const [, , pkgName = '@alilc/lowcode-ignitor'] = process.argv;
+    const [, , pkgName = '@digiforce-cloud/dvd-ignitor'] = process.argv;
     await execa.command(`lerna exec --scope ${pkgName} -- npm start`, { stdio: 'inherit', encoding: 'utf-8' });
 }
 

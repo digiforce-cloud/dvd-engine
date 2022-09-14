@@ -19,15 +19,15 @@ test(testCaseBaseName, async () => {
 
   // 里面有的数据源则应该生成对应的 dependencies
   expect(generatedPackageJson.dependencies).toMatchObject({
-    '@alilc/lowcode-datasource-engine': 'latest',
-    '@alilc/lowcode-datasource-fetch-handler': 'latest',
+    '@digiforce-cloud/dvd-datasource-engine': 'latest',
+    '@digiforce-cloud/dvd-datasource-fetch-handler': 'latest',
   });
 
   // 里面没有的，则不应该生成对应的 dependencies
   expect(generatedPackageJson.dependencies).not.toMatchObject({
-    '@alilc/lowcode-datasource-url-params-handler': 'latest',
-    '@alilc/lowcode-datasource-mtop-handler': 'latest',
-    '@alilc/lowcode-datasource-mopen-handler': 'latest',
+    '@digiforce-cloud/dvd-datasource-url-params-handler': 'latest',
+    '@digiforce-cloud/dvd-datasource-mtop-handler': 'latest',
+    '@digiforce-cloud/dvd-datasource-mopen-handler': 'latest',
   });
 });
 

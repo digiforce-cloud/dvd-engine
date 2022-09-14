@@ -1,4 +1,4 @@
-import { Editor, action, makeObservable } from '@alilc/lowcode-editor-core';
+import { Editor, action, makeObservable } from '@digiforce-cloud/dvd-editor-core';
 import {
   DockConfig,
   PanelConfig,
@@ -21,9 +21,9 @@ import PanelDock from './widget/panel-dock';
 import Dock from './widget/dock';
 import { Stage, StageConfig } from './widget/stage';
 import { isValidElement } from 'react';
-import { isPlainObject, uniqueId } from '@alilc/lowcode-utils';
+import { isPlainObject, uniqueId } from '@digiforce-cloud/dvd-utils';
 import { Divider } from '@alifd/next';
-import { EditorConfig, PluginClassSet } from '@alilc/lowcode-types';
+import { EditorConfig, PluginClassSet } from '@digiforce-cloud/dvd-types';
 
 export enum SkeletonEvents {
   PANEL_DOCK_ACTIVE = 'skeleton.panel-dock.active',

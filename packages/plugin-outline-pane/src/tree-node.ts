@@ -1,6 +1,6 @@
-import { TitleContent, isI18nData } from '@alilc/lowcode-types';
-import { computed, obx, intl, makeObservable, action } from '@alilc/lowcode-editor-core';
-import { Node, DocumentModel, isLocationChildrenDetail, LocationChildrenDetail, Designer } from '@alilc/lowcode-designer';
+import { TitleContent, isI18nData } from '@digiforce-cloud/dvd-types';
+import { computed, obx, intl, makeObservable, action } from '@digiforce-cloud/dvd-editor-core';
+import { Node, DocumentModel, isLocationChildrenDetail, LocationChildrenDetail, Designer } from '@digiforce-cloud/dvd-designer';
 import { Tree } from './tree';
 
 /**

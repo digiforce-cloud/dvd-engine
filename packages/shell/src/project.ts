@@ -3,8 +3,8 @@ import {
   Project as InnerProject,
   PropsReducer as PropsTransducer,
   TransformStage,
-} from '@alilc/lowcode-designer';
-import { RootSchema, ProjectSchema } from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-designer';
+import { RootSchema, ProjectSchema } from '@digiforce-cloud/dvd-types';
 import DocumentModel from './document-model';
 import SimulatorHost from './simulator-host';
 import { projectSymbol, simulatorHostSymbol, simulatorRendererSymbol, documentSymbol } from './symbols';

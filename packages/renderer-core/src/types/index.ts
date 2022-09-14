@@ -1,6 +1,6 @@
 import type { ComponentLifecycle, CSSProperties } from 'react';
-import { BuiltinSimulatorHost } from '@alilc/lowcode-designer';
-import { RequestHandler, NodeSchema, NodeData, RootSchema, JSONObject } from '@alilc/lowcode-types';
+import { BuiltinSimulatorHost } from '@digiforce-cloud/dvd-designer';
+import { RequestHandler, NodeSchema, NodeData, RootSchema, JSONObject } from '@digiforce-cloud/dvd-types';
 
 export type ISchema = NodeSchema | RootSchema;
 

@@ -1,11 +1,11 @@
 // @ts-nocheck
 import '../../../fixtures/window';
 import { delayObxTick } from '../../../utils';
-import { Editor, engineConfig } from '@alilc/lowcode-editor-core';
+import { Editor, engineConfig } from '@digiforce-cloud/dvd-editor-core';
 import { Designer } from '../../../../src/designer/designer';
 import { DocumentModel } from '../../../../src/document/document-model';
 import { Prop, isProp, isValidArrayIndex } from '../../../../src/document/node/props/prop';
-import { TransformStage } from '@alilc/lowcode-types';
+import { TransformStage } from '@digiforce-cloud/dvd-types';
 
 const slotNodeImportMockFn = jest.fn();
 const slotNodeRemoveMockFn = jest.fn();

@@ -1,4 +1,4 @@
-import { DropLocation, ParentalNode, isLocationChildrenDetail } from '@alilc/lowcode-designer';
+import { DropLocation, ParentalNode, isLocationChildrenDetail } from '@digiforce-cloud/dvd-designer';
 
 const IndentSensitive = 15;
 export class IndentTrack {

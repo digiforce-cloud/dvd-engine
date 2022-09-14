@@ -9,7 +9,7 @@ import {
   AssetType,
   assetItem,
   isCSSUrl,
-} from '@alilc/lowcode-utils';
+} from '@digiforce-cloud/dvd-utils';
 
 import { BuiltinSimulatorRenderer } from './renderer';
 

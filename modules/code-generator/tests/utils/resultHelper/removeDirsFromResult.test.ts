@@ -1,4 +1,4 @@
-import type { ResultDir } from '@alilc/lowcode-types';
+import type { ResultDir } from '@digiforce-cloud/dvd-types';
 import _ from 'lodash';
 import CodeGen from '../../../src';
 

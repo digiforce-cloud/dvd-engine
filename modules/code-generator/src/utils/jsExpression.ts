@@ -2,7 +2,7 @@ import * as parser from '@babel/parser';
 import generate from '@babel/generator';
 import traverse from '@babel/traverse';
 import * as t from '@babel/types';
-import { JSExpression, JSFunction, isJSExpression, isJSFunction } from '@alilc/lowcode-types';
+import { JSExpression, JSFunction, isJSExpression, isJSFunction } from '@digiforce-cloud/dvd-types';
 import { CodeGeneratorError, IScope } from '../types';
 import { transformExpressionLocalRef, ParseError } from './expressionParser';
 

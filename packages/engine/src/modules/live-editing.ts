@@ -1,5 +1,5 @@
-import { EditingTarget, Node as DocNode, SaveHandler, LiveEditing } from '@alilc/lowcode-designer';
-import { isJSExpression } from '@alilc/lowcode-types';
+import { EditingTarget, Node as DocNode, SaveHandler, LiveEditing } from '@digiforce-cloud/dvd-designer';
+import { isJSExpression } from '@digiforce-cloud/dvd-types';
 
 function getText(node: DocNode, prop: string) {
   const p = node.getProp(prop, false);

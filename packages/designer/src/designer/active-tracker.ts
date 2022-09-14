@@ -2,7 +2,7 @@ import { EventEmitter } from 'events';
 import { LocationDetail } from './location';
 import { Node, isNode } from '../document/node/node';
 import { ComponentInstance } from '../simulator';
-import { obx } from '@alilc/lowcode-editor-core';
+import { obx } from '@digiforce-cloud/dvd-editor-core';
 
 export interface ActiveTarget {
   node: Node;

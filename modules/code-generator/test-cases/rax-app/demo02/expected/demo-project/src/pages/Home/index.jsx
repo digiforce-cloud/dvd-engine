@@ -11,11 +11,11 @@ import Text from 'rax-text';
 
 import Image from 'rax-image';
 
-import { createUrlParamsHandler as __$$createUrlParamsRequestHandler } from '@alilc/lowcode-datasource-url-params-handler';
+import { createUrlParamsHandler as __$$createUrlParamsRequestHandler } from '@digiforce-cloud/dvd-datasource-url-params-handler';
 
-import { createFetchHandler as __$$createFetchRequestHandler } from '@alilc/lowcode-datasource-fetch-handler';
+import { createFetchHandler as __$$createFetchRequestHandler } from '@digiforce-cloud/dvd-datasource-fetch-handler';
 
-import { create as __$$createDataSourceEngine } from '@alilc/lowcode-datasource-engine/runtime';
+import { create as __$$createDataSourceEngine } from '@digiforce-cloud/dvd-datasource-engine/runtime';
 
 import { isMiniApp as __$$isMiniApp } from 'universal-env';
 

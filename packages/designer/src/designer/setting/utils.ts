@@ -1,7 +1,7 @@
 // all this file for polyfill vision logic
 import { isValidElement } from 'react';
-import { isSetterConfig, isDynamicSetter, FieldConfig, SetterConfig } from '@alilc/lowcode-types';
-import { getSetter } from '@alilc/lowcode-editor-core';
+import { isSetterConfig, isDynamicSetter, FieldConfig, SetterConfig } from '@digiforce-cloud/dvd-types';
+import { getSetter } from '@digiforce-cloud/dvd-editor-core';
 import { SettingField } from './setting-field';
 
 function getHotterFromSetter(setter) {

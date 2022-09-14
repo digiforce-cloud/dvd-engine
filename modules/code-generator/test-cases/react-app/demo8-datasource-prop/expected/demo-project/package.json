@@ -11,9 +11,9 @@
     "intl-messageformat": "^9.3.6",
     "@ice/store": "^1.4.3",
     "@loadable/component": "^5.15.2",
-    "@alilc/lowcode-datasource-engine": "latest",
-    "@alilc/lowcode-datasource-http-handler": "latest",
-    "@alilc/lowcode-components": "^1.0.0"
+    "@digiforce-cloud/dvd-datasource-engine": "latest",
+    "@digiforce-cloud/dvd-datasource-http-handler": "latest",
+    "@digiforce-cloud/dvd-components": "^1.0.0"
   },
   "devDependencies": {
     "@ice/spec": "^1.0.0",

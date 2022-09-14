@@ -1,4 +1,4 @@
-import { ParentalNode, DropLocation, isLocationChildrenDetail, LocateEvent } from '@alilc/lowcode-designer';
+import { ParentalNode, DropLocation, isLocationChildrenDetail, LocateEvent } from '@digiforce-cloud/dvd-designer';
 
 /**
  * 停留检查计时器

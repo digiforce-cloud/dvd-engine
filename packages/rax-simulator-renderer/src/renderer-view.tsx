@@ -1,11 +1,11 @@
-import RaxRenderer from '@alilc/lowcode-rax-renderer';
+import RaxRenderer from '@digiforce-cloud/dvd-rax-renderer';
 import { History } from 'history';
 import { Component, createElement, Fragment } from 'rax';
 import { useRouter } from './rax-use-router';
 import { DocumentInstance, SimulatorRendererContainer } from './renderer';
 import './renderer.less';
-import { uniqueId } from '@alilc/lowcode-utils';
-import { GlobalEvent } from '@alilc/lowcode-types';
+import { uniqueId } from '@digiforce-cloud/dvd-utils';
+import { GlobalEvent } from '@digiforce-cloud/dvd-types';
 import { host } from './host';
 
 // patch cloneElement avoid lost keyProps

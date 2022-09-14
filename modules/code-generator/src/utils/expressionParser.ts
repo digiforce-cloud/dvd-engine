@@ -182,7 +182,7 @@ export function parseExpressionGetKeywords(expr: string | null | undefined): str
             if (typeof fieldValue === 'object') {
               if (Array.isArray(fieldValue)) {
                 fieldValue.forEach((item) => {
-                  addIdentifierIfNeeded(item);
+                  addIdentifierIfNeeded(item as any);
                 });
               } else {
                 addIdentifierIfNeeded(fieldValue as Record<string, unknown> | null);
@@ -234,7 +234,7 @@ export function parseExpressionGetGlobalVariables(
             if (typeof fieldValue === 'object') {
               if (Array.isArray(fieldValue)) {
                 fieldValue.forEach((item) => {
-                  addUndeclaredIdentifierIfNeeded(item, path);
+                  addUndeclaredIdentifierIfNeeded(item as any, path);
                 });
               } else {
                 addUndeclaredIdentifierIfNeeded(fieldValue as Record<string, unknown> | null, path);

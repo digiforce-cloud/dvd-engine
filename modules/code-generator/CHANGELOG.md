@@ -2,21 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.0.4](https://github.com/alibaba/lowcode-engine/compare/@alilc/lowcode-code-generator@1.0.4-beta.0...@alilc/lowcode-code-generator@1.0.4) (2022-04-12)
+### [1.0.4](https://github.com/alibaba/lowcode-engine/compare/@digiforce-cloud/dvd-code-generator@1.0.4-beta.0...@digiforce-cloud/dvd-code-generator@1.0.4) (2022-04-12)
 
 
 ### Bug Fixes
 
 * 🐛 解决 react 中 jsx 出码的时候对于循环数据漏包 __$evalArray 的问题 ([eb4cc69](https://github.com/alibaba/lowcode-engine/commit/eb4cc693f5dbcae54546c569eb8fa331d074e062))
 
-### [1.0.4-beta.1](https://github.com/alibaba/lowcode-engine/compare/@alilc/lowcode-code-generator@1.0.4-beta.0...@alilc/lowcode-code-generator@1.0.4-beta.1) (2022-04-11)
+### [1.0.4-beta.1](https://github.com/alibaba/lowcode-engine/compare/@digiforce-cloud/dvd-code-generator@1.0.4-beta.0...@digiforce-cloud/dvd-code-generator@1.0.4-beta.1) (2022-04-11)
 
 
 ### Bug Fixes
 
 * 🐛 解决 react 中 jsx 出码的时候对于循环数据漏包 __$evalArray 的问题 ([987f4ce](https://github.com/alibaba/lowcode-engine/commit/987f4cea54ef8a75d0b63a0268b5a20b2938b8a7))
 
-### [1.0.4-beta.0](https://github.com/alibaba/lowcode-engine/compare/@alilc/lowcode-code-generator@1.0.3...@alilc/lowcode-code-generator@1.0.4-beta.0) (2022-04-10)
+### [1.0.4-beta.0](https://github.com/alibaba/lowcode-engine/compare/@digiforce-cloud/dvd-code-generator@1.0.3...@digiforce-cloud/dvd-code-generator@1.0.4-beta.0) (2022-04-10)
 
 
 ### Features
@@ -33,7 +33,7 @@ All notable changes to this project will be documented in this file. See [standa
 * fix unnecessary props calculation ([f1fed75](https://github.com/alibaba/lowcode-engine/commit/f1fed75f39be8289ede1ec558b04428a69e25b5f))
 * 修正 react 框架出码中在严格模式对 methods 和 context 的处理 ([79db4ac](https://github.com/alibaba/lowcode-engine/commit/79db4ac97f34f24b7f7460fb3fc67521967f8cc5))
 
-### [1.0.3](https://github.com/alibaba/lowcode-engine/compare/@alilc/lowcode-code-generator@1.0.2...@alilc/lowcode-code-generator@1.0.3) (2022-03-29)
+### [1.0.3](https://github.com/alibaba/lowcode-engine/compare/@digiforce-cloud/dvd-code-generator@1.0.2...@digiforce-cloud/dvd-code-generator@1.0.3) (2022-03-29)
 
 
 ### Features
@@ -54,16 +54,16 @@ All notable changes to this project will be documented in this file. See [standa
 * variable binding lost after modify the mock value ([ef95b56](https://github.com/alibaba/lowcode-engine/commit/ef95b5683273d8302bde1582de8afe3d87a808d8))
 * Workbench should receive the original skeleton other than shell skeleton ([d5c3ca1](https://github.com/alibaba/lowcode-engine/commit/d5c3ca1068ce2c2140980bd059d0da333574dc34))
 
-### [1.0.2](https://github.com/alibaba/lowcode-engine/compare/@alilc/lowcode-code-generator@1.0.2-beta.1...@alilc/lowcode-code-generator@1.0.2) (2022-03-08)
+### [1.0.2](https://github.com/alibaba/lowcode-engine/compare/@digiforce-cloud/dvd-code-generator@1.0.2-beta.1...@digiforce-cloud/dvd-code-generator@1.0.2) (2022-03-08)
 
-### [1.0.2-beta.1](https://github.com/alibaba/lowcode-engine/compare/@alilc/lowcode-code-generator@1.0.2-beta.0...@alilc/lowcode-code-generator@1.0.2-beta.1) (2022-03-08)
+### [1.0.2-beta.1](https://github.com/alibaba/lowcode-engine/compare/@digiforce-cloud/dvd-code-generator@1.0.2-beta.0...@digiforce-cloud/dvd-code-generator@1.0.2-beta.1) (2022-03-08)
 
 
 ### Bug Fixes
 
 * 🐛 补充 icejs 模板中缺失的依赖包 ([a94553e](https://github.com/alibaba/lowcode-engine/commit/a94553e503d439b67478df6a34950d9e3d15a063))
 
-### [1.0.2-beta.0](https://github.com/alibaba/lowcode-engine/compare/@alilc/lowcode-code-generator@1.0.0...@alilc/lowcode-code-generator@1.0.2-beta.0) (2022-03-08)
+### [1.0.2-beta.0](https://github.com/alibaba/lowcode-engine/compare/@digiforce-cloud/dvd-code-generator@1.0.0...@digiforce-cloud/dvd-code-generator@1.0.2-beta.0) (2022-03-08)
 
 
 ### Features
@@ -91,7 +91,7 @@ All notable changes to this project will be documented in this file. See [standa
 * lint&fix auto generated types.ts ([7dde970](https://github.com/alibaba/lowcode-engine/commit/7dde9701c7960b29523abddf32421cdbac47016d))
 * The outline tree does not display the loop flag when the loop is an empty array ([191e284](https://github.com/alibaba/lowcode-engine/commit/191e284f2fa190c2b3aecb4df31849b2bdc99d38))
 
-### [1.0.1](https://github.com/alibaba/lowcode-engine/compare/@alilc/lowcode-code-generator@1.0.0...@alilc/lowcode-code-generator@1.0.1) (2022-03-08)
+### [1.0.1](https://github.com/alibaba/lowcode-engine/compare/@digiforce-cloud/dvd-code-generator@1.0.0...@digiforce-cloud/dvd-code-generator@1.0.1) (2022-03-08)
 
 
 ### Features

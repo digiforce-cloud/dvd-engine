@@ -1,6 +1,6 @@
 import '../../fixtures/window';
 import { DocumentModel, isDocumentModel, isPageSchema } from '../../../src/document/document-model';
-import { Editor } from '@alilc/lowcode-editor-core';
+import { Editor } from '@digiforce-cloud/dvd-editor-core';
 import { Project } from '../../../src/project/project';
 import { Node } from '../../../src/document/node/node';
 import { Designer } from '../../../src/designer/designer';

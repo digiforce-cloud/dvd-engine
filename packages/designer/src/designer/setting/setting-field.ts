@@ -1,9 +1,9 @@
-import { TitleContent, isDynamicSetter, SetterType, DynamicSetter, FieldExtraProps, FieldConfig, CustomView, isCustomView } from '@alilc/lowcode-types';
+import { TitleContent, isDynamicSetter, SetterType, DynamicSetter, FieldExtraProps, FieldConfig, CustomView, isCustomView } from '@digiforce-cloud/dvd-types';
 import { Transducer } from './utils';
 import { SettingPropEntry } from './setting-prop-entry';
 import { SettingEntry } from './setting-entry';
-import { computed, obx, makeObservable, action } from '@alilc/lowcode-editor-core';
-import { cloneDeep } from '@alilc/lowcode-utils';
+import { computed, obx, makeObservable, action } from '@digiforce-cloud/dvd-editor-core';
+import { cloneDeep } from '@digiforce-cloud/dvd-utils';
 import type { ISetValueOptions } from '../../types';
 
 function getSettingFieldCollectorKey(parent: SettingEntry, config: FieldConfig) {

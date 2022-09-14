@@ -1,6 +1,6 @@
 import * as defaultFs from 'fs';
 
-import { ResultDir } from '@alilc/lowcode-types';
+import { ResultDir } from '@digiforce-cloud/dvd-types';
 import { PublisherFactory, IPublisher, IPublisherFactoryParams, PublisherError } from '../../types';
 import { getErrorMessage } from '../../utils/errors';
 import { writeFolder, IFileSystem } from './utils';

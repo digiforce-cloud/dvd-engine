@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
-import { Node, Designer, Selection, SettingTopEntry } from '@alilc/lowcode-designer';
-import { Editor, obx, computed, makeObservable, action } from '@alilc/lowcode-editor-core';
+import { Node, Designer, Selection, SettingTopEntry } from '@digiforce-cloud/dvd-designer';
+import { Editor, obx, computed, makeObservable, action } from '@digiforce-cloud/dvd-editor-core';
 
 function generateSessionId(nodes: Node[]) {
   return nodes

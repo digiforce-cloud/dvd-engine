@@ -1,5 +1,5 @@
-import { computed, makeObservable, obx } from '@alilc/lowcode-editor-core';
-import { Designer, isLocationChildrenDetail } from '@alilc/lowcode-designer';
+import { computed, makeObservable, obx } from '@digiforce-cloud/dvd-editor-core';
+import { Designer, isLocationChildrenDetail } from '@digiforce-cloud/dvd-designer';
 import TreeNode from './tree-node';
 import { Tree } from './tree';
 import { Backup } from './views/backup-pane';

@@ -1,4 +1,4 @@
-import { NodeData } from '@alilc/lowcode-types';
+import { NodeData } from '@digiforce-cloud/dvd-types';
 import { handleSubNodes } from '../../../src/utils/schema';
 import SCHEMA_WITH_SLOT from './data/schema-with-slot.json';
 

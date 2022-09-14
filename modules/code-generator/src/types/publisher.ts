@@ -1,4 +1,4 @@
-import { ResultDir } from '@alilc/lowcode-types';
+import { ResultDir } from '@digiforce-cloud/dvd-types';
 
 export type PublisherFactory<T, U> = (configuration?: Partial<T>) => U;
 

@@ -1,4 +1,4 @@
-import { pageRendererFactory, types } from '@alilc/lowcode-renderer-core';
+import { pageRendererFactory, types } from '@digiforce-cloud/dvd-renderer-core';
 
 export default function raxPageRendererFactory() {
   const OriginPage = pageRendererFactory();

@@ -1,5 +1,5 @@
-import { NodeChildren as InnerNodeChildren, Node as InnerNode } from '@alilc/lowcode-designer';
-import { NodeSchema, NodeData, TransformStage } from '@alilc/lowcode-types';
+import { NodeChildren as InnerNodeChildren, Node as InnerNode } from '@digiforce-cloud/dvd-designer';
+import { NodeSchema, NodeData, TransformStage } from '@digiforce-cloud/dvd-types';
 import Node from './node';
 import { nodeSymbol, nodeChildrenSymbol } from './symbols';
 

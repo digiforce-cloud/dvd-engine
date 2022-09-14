@@ -1,6 +1,6 @@
-import { obx, computed, makeObservable } from '@alilc/lowcode-editor-core';
-import { uniqueId } from '@alilc/lowcode-utils';
-import { TitleContent } from '@alilc/lowcode-types';
+import { obx, computed, makeObservable } from '@digiforce-cloud/dvd-editor-core';
+import { uniqueId } from '@digiforce-cloud/dvd-utils';
+import { TitleContent } from '@digiforce-cloud/dvd-types';
 import { Node } from './node';
 import { intl } from '../../locale';
 

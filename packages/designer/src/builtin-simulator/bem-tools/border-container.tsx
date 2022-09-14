@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Component, Fragment, ReactElement, PureComponent } from 'react';
 import classNames from 'classnames';
-import { computed, observer, Title, globalLocale } from '@alilc/lowcode-editor-core';
-import { I18nData, isI18nData, TitleContent } from '@alilc/lowcode-types';
+import { computed, observer, Title, globalLocale } from '@digiforce-cloud/dvd-editor-core';
+import { I18nData, isI18nData, TitleContent } from '@digiforce-cloud/dvd-types';
 import { DropLocation } from '../../designer';
 import { BuiltinSimulatorHost } from '../../builtin-simulator/host';
 import { ParentalNode } from '../../document/node';

@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import type { ProjectSchema, ResultDir } from '@alilc/lowcode-types';
+import type { ProjectSchema, ResultDir } from '@digiforce-cloud/dvd-types';
 import type { FlattenFile } from './types/file';
 
 declare const Worker: any;
@@ -8,7 +8,7 @@ declare const __PACKAGE_VERSION__: string;
 
 const packageVersion = __PACKAGE_VERSION__ || 'latest';
 
-export const DEFAULT_WORKER_JS = `https://unpkg.com/@alilc/lowcode-code-generator@${packageVersion}/dist/standalone-worker.min.js`;
+export const DEFAULT_WORKER_JS = `https://unpkg.com/@digiforce-cloud/dvd-code-generator@${packageVersion}/dist/standalone-worker.min.js`;
 
 export const DEFAULT_TIMEOUT_IN_MS = 60 * 1000;
 

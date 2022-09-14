@@ -8,7 +8,7 @@ import {
   isJSFunction,
   isJSSlot,
   JSSlot,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import _ from 'lodash';
 
 import { IScope, CompositeValueGeneratorOptions, CodeGeneratorError } from '../types';

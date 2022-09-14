@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-shell",
+  "name": "@digiforce-cloud/dvd-shell",
   "version": "1.0.14",
   "description": "Shell Layer for AliLowCodeEngine",
   "main": "lib/index.js",
@@ -15,11 +15,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@alilc/lowcode-designer": "1.0.14",
-    "@alilc/lowcode-editor-core": "1.0.14",
-    "@alilc/lowcode-editor-skeleton": "1.0.14",
-    "@alilc/lowcode-types": "1.0.14",
-    "@alilc/lowcode-utils": "1.0.14",
+    "@digiforce-cloud/dvd-designer": "1.0.14",
+    "@digiforce-cloud/dvd-editor-core": "1.0.14",
+    "@digiforce-cloud/dvd-editor-skeleton": "1.0.14",
+    "@digiforce-cloud/dvd-types": "1.0.14",
+    "@digiforce-cloud/dvd-utils": "1.0.14",
     "classnames": "^2.2.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.29",
-    "@alilc/lowcode-test-mate": "^1.0.1",
+    "@digiforce-cloud/dvd-test-mate": "^1.0.1",
     "@testing-library/react": "^11.2.2",
     "@types/classnames": "^2.2.7",
     "@types/jest": "^26.0.16",

@@ -11,13 +11,13 @@
     "lint": "npm run eslint && npm run stylelint"
   },
   "dependencies": {
-    "@alilc/lowcode-datasource-engine": "latest",
-    "@alilc/lowcode-datasource-http-handler": "latest",
+    "@digiforce-cloud/dvd-datasource-engine": "latest",
+    "@digiforce-cloud/dvd-datasource-http-handler": "latest",
     "universal-env": "^3.2.0",
     "intl-messageformat": "^9.3.6",
     "rax": "^1.1.0",
     "rax-document": "^0.1.6",
-    "@alilc/lowcode-components": "^1.0.0"
+    "@digiforce-cloud/dvd-components": "^1.0.0"
   },
   "devDependencies": {
     "@iceworks/spec": "^1.0.0",

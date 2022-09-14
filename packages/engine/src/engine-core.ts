@@ -1,23 +1,23 @@
 import { createElement } from 'react';
 import { render } from 'react-dom';
-import { globalContext, Editor, engineConfig, EngineOptions } from '@alilc/lowcode-editor-core';
+import { globalContext, Editor, engineConfig, EngineOptions } from '@digiforce-cloud/dvd-editor-core';
 import {
   Designer,
   LowCodePluginManager,
   ILowCodePluginContext,
   PluginPreference,
   TransformStage,
-} from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-designer';
 import {
   Skeleton as InnerSkeleton,
   SettingsPrimaryPane,
   registerDefaults,
-} from '@alilc/lowcode-editor-skeleton';
+} from '@digiforce-cloud/dvd-editor-skeleton';
 
-import Outline, { OutlineBackupPane, getTreeMaster } from '@alilc/lowcode-plugin-outline-pane';
-import DesignerPlugin from '@alilc/lowcode-plugin-designer';
-import { Hotkey, Project, Skeleton, Setters, Material, Event } from '@alilc/lowcode-shell';
-import { getLogger, isPlainObject } from '@alilc/lowcode-utils';
+import Outline, { OutlineBackupPane, getTreeMaster } from '@digiforce-cloud/dvd-plugin-outline-pane';
+import DesignerPlugin from '@digiforce-cloud/dvd-plugin-designer';
+import { Hotkey, Project, Skeleton, Setters, Material, Event } from '@digiforce-cloud/dvd-shell';
+import { getLogger, isPlainObject } from '@digiforce-cloud/dvd-utils';
 import './modules/live-editing';
 import utils from './modules/utils';
 import * as editorCabin from './modules/editor-cabin';
@@ -112,7 +112,7 @@ engineConfig.set('isOpenSource', isOpenSource);
     return {
       init() {
         if (engineConfig.get('disableDefaultSetters')) return;
-        const builtinSetters = require('@alilc/lowcode-engine-ext')?.setters;
+        const builtinSetters = require('@digiforce-cloud/dvd-engine-ext')?.setters;
         if (builtinSetters) {
           ctx.setters.registerSetter(builtinSetters);
         }

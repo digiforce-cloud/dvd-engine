@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { observer, globalContext } from '@alilc/lowcode-editor-core';
+import { observer, globalContext } from '@digiforce-cloud/dvd-editor-core';
 import { intl } from '../locale';
 import { OutlineMain } from '../main';
 import TreeView from './tree';
 import './style.less';
-import { IEditor } from '@alilc/lowcode-types';
+import { IEditor } from '@digiforce-cloud/dvd-types';
 import Filter from './filter';
 
 @observer

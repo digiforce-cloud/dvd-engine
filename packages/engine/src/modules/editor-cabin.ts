@@ -10,4 +10,4 @@ export {
   computed,
   observer,
   globalLocale,
-} from '@alilc/lowcode-editor-core';
+} from '@digiforce-cloud/dvd-editor-core';

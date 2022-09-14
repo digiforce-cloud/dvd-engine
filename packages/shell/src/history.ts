@@ -1,4 +1,4 @@
-import { History as InnerHistory, DocumentModel as InnerDocumentModel } from '@alilc/lowcode-designer';
+import { History as InnerHistory, DocumentModel as InnerDocumentModel } from '@digiforce-cloud/dvd-designer';
 import { historySymbol } from './symbols';
 
 export default class History {

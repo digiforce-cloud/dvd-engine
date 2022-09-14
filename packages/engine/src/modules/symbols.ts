@@ -8,7 +8,7 @@ import {
   editorSymbol,
   settingPropEntrySymbol,
   settingTopEntrySymbol,
-} from '@alilc/lowcode-shell';
+} from '@digiforce-cloud/dvd-shell';
 
 export default {
   projectSymbol,

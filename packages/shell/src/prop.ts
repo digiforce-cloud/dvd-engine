@@ -1,5 +1,5 @@
-import { Prop as InnerProp } from '@alilc/lowcode-designer';
-import { CompositeValue, TransformStage } from '@alilc/lowcode-types';
+import { Prop as InnerProp } from '@digiforce-cloud/dvd-designer';
+import { CompositeValue, TransformStage } from '@digiforce-cloud/dvd-types';
 import { propSymbol } from './symbols';
 import Node from './node';
 

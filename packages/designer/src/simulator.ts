@@ -1,5 +1,5 @@
 import { Component as ReactComponent, ComponentType } from 'react';
-import { ComponentMetadata, NodeSchema } from '@alilc/lowcode-types';
+import { ComponentMetadata, NodeSchema } from '@digiforce-cloud/dvd-types';
 import { ISensor, Point, ScrollTarget, IScrollable, LocateEvent, LocationData } from './designer';
 import { BuiltinSimulatorRenderer } from './builtin-simulator/renderer';
 import { Node, ParentalNode } from './document';

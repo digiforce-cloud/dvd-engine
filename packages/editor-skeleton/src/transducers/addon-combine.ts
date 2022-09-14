@@ -1,6 +1,6 @@
-import { TransformedComponentMetadata, FieldConfig, SettingTarget } from '@alilc/lowcode-types';
+import { TransformedComponentMetadata, FieldConfig, SettingTarget } from '@digiforce-cloud/dvd-types';
 import { IconSlot } from '../icons/slot';
-import { getConvertedExtraKey } from '@alilc/lowcode-designer';
+import { getConvertedExtraKey } from '@digiforce-cloud/dvd-designer';
 
 export default function (metadata: TransformedComponentMetadata): TransformedComponentMetadata {
   const { componentName, configure = {} } = metadata;

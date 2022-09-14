@@ -1,4 +1,4 @@
-import { SettingTarget } from '@alilc/lowcode-types';
+import { SettingTarget } from '@digiforce-cloud/dvd-types';
 import { ComponentMeta } from '../../component-meta';
 import { Designer } from '../designer';
 import { Node } from '../../document';

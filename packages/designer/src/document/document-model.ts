@@ -1,5 +1,5 @@
-import { computed, makeObservable, obx, action, runWithGlobalEventOff, wrapWithEventSwitch } from '@alilc/lowcode-editor-core';
-import { NodeData, isJSExpression, isDOMText, NodeSchema, isNodeSchema, RootSchema, PageSchema, ComponentsMap } from '@alilc/lowcode-types';
+import { computed, makeObservable, obx, action, runWithGlobalEventOff, wrapWithEventSwitch } from '@digiforce-cloud/dvd-editor-core';
+import { NodeData, isJSExpression, isDOMText, NodeSchema, isNodeSchema, RootSchema, PageSchema, ComponentsMap } from '@digiforce-cloud/dvd-types';
 import { EventEmitter } from 'events';
 import { Project } from '../project';
 import { ISimulatorHost } from '../simulator';
@@ -9,7 +9,7 @@ import { Node, insertChildren, insertChild, isNode, RootNode, ParentalNode } fro
 import { Selection } from './selection';
 import { History } from './history';
 import { TransformStage, ModalNodesManager } from './node';
-import { uniqueId, isPlainObject, compatStage } from '@alilc/lowcode-utils';
+import { uniqueId, isPlainObject, compatStage } from '@digiforce-cloud/dvd-utils';
 
 export type GetDataType<T, NodeType> = T extends undefined
   ? NodeType extends {

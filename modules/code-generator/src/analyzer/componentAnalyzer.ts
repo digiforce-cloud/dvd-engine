@@ -1,4 +1,4 @@
-import type { NodeSchema, CompositeObject } from '@alilc/lowcode-types';
+import type { NodeSchema, CompositeObject } from '@digiforce-cloud/dvd-types';
 import type { TComponentAnalyzer } from '../types';
 
 import { handleSubNodes } from '../utils/schema';

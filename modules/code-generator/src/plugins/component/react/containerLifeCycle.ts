@@ -12,7 +12,7 @@ import {
   ICodeStruct,
   IContainerInfo,
 } from '../../../types';
-import { isJSFunction, isJSExpression } from '@alilc/lowcode-types';
+import { isJSFunction, isJSExpression } from '@digiforce-cloud/dvd-types';
 
 export interface PluginConfig {
   fileType: string;

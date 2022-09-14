@@ -1,6 +1,6 @@
 import {
   DropLocation as InnerDropLocation,
-} from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-designer';
 import { dropLocationSymbol } from './symbols';
 import Node from './node';
 

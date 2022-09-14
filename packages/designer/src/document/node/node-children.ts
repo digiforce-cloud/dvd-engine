@@ -1,8 +1,8 @@
-import { obx, computed, globalContext, makeObservable } from '@alilc/lowcode-editor-core';
+import { obx, computed, globalContext, makeObservable } from '@digiforce-cloud/dvd-editor-core';
 import { Node, ParentalNode } from './node';
 import { TransformStage } from './transform-stage';
-import { NodeData, isNodeSchema } from '@alilc/lowcode-types';
-import { shallowEqual, compatStage } from '@alilc/lowcode-utils';
+import { NodeData, isNodeSchema } from '@digiforce-cloud/dvd-types';
+import { shallowEqual, compatStage } from '@digiforce-cloud/dvd-utils';
 import { EventEmitter } from 'events';
 import { foreachReverse } from '../../utils/tree';
 import { NodeRemoveOptions } from '../../types';

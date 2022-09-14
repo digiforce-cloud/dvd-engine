@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
-import { CustomView, isCustomView, TitleContent } from '@alilc/lowcode-types';
-import { createContent } from '@alilc/lowcode-utils';
+import { CustomView, isCustomView, TitleContent } from '@digiforce-cloud/dvd-types';
+import { createContent } from '@digiforce-cloud/dvd-utils';
 
 export type RegisteredSetter = {
   component: CustomView;

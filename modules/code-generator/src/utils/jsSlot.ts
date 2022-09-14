@@ -1,4 +1,4 @@
-import { JSSlot, isJSSlot, NodeData } from '@alilc/lowcode-types';
+import { JSSlot, isJSSlot, NodeData } from '@digiforce-cloud/dvd-types';
 import { CodeGeneratorError, NodeGenerator, IScope } from '../types';
 import { unwrapJsExprQuoteInJsx } from './jsxHelpers';
 

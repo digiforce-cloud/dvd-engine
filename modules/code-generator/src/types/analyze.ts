@@ -1,4 +1,4 @@
-import type { ContainerSchema } from '@alilc/lowcode-types';
+import type { ContainerSchema } from '@digiforce-cloud/dvd-types';
 
 export interface ICompAnalyzeResult {
   isUsingRef: boolean;

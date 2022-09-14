@@ -1,18 +1,18 @@
-import { Editor } from '@alilc/lowcode-editor-core';
+import { Editor } from '@digiforce-cloud/dvd-editor-core';
 import {
   DocumentModel as InnerDocumentModel,
   Node as InnerNode,
   ParentalNode,
   IOnChangeOptions as InnerIOnChangeOptions,
   PropChangeOptions as InnerPropChangeOptions,
-} from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-designer';
 import {
   TransformStage,
   RootSchema,
   NodeSchema,
   NodeData,
   GlobalEvent,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import Node from './node';
 import Selection from './selection';
 import Detecting from './detecting';

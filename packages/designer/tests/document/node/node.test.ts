@@ -1,7 +1,7 @@
 // @ts-nocheck
 import '../../fixtures/window';
 import { set, delayObxTick, delay } from '../../utils';
-import { Editor } from '@alilc/lowcode-editor-core';
+import { Editor } from '@digiforce-cloud/dvd-editor-core';
 import { Project } from '../../../src/project/project';
 import { DocumentModel } from '../../../src/document/document-model';
 import {

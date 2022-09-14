@@ -1,5 +1,5 @@
 import JSZip from 'jszip';
-import { ResultDir, ResultFile } from '@alilc/lowcode-types';
+import { ResultDir, ResultFile } from '@digiforce-cloud/dvd-types';
 import type { ZipBuffer } from './index';
 
 export const isNodeProcess = (): boolean => {

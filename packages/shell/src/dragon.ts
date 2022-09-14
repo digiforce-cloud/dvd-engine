@@ -1,7 +1,7 @@
 import {
   Dragon as InnerDragon,
   DragNodeDataObject,
-} from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-designer';
 import { dragonSymbol } from './symbols';
 
 export default class Dragon {

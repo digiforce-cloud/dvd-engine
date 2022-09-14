@@ -1,6 +1,6 @@
 // @ts-nocheck
 import '../../fixtures/window';
-import { Editor } from '@alilc/lowcode-editor-core';
+import { Editor } from '@digiforce-cloud/dvd-editor-core';
 import { Project } from '../../../src/project/project';
 import { SettingTopEntry } from '../../../src/designer/setting/setting-top-entry';
 import { SettingField } from '../../../src/designer/setting/setting-field';

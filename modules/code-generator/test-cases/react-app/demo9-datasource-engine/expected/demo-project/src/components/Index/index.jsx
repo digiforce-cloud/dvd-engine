@@ -4,9 +4,9 @@ import React from "react";
 
 import { Switch } from "@alifd/next";
 
-import { createJsonpHandler as __$$createJsonpRequestHandler } from "@alilc/lowcode-datasource-jsonp-handler";
+import { createJsonpHandler as __$$createJsonpRequestHandler } from "@digiforce-cloud/dvd-datasource-jsonp-handler";
 
-import { create as __$$createDataSourceEngine } from "@alilc/lowcode-datasource-engine/runtime";
+import { create as __$$createDataSourceEngine } from "@digiforce-cloud/dvd-datasource-engine/runtime";
 
 import utils from "../../utils";
 

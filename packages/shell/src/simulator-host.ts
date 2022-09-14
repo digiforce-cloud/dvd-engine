@@ -1,6 +1,6 @@
 import {
   BuiltinSimulatorHost,
-} from '@alilc/lowcode-designer';
+} from '@digiforce-cloud/dvd-designer';
 import { simulatorHostSymbol } from './symbols';
 
 export default class SimulatorHost {

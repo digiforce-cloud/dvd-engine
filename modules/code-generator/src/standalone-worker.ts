@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import type { ProjectSchema } from '@alilc/lowcode-types';
+import type { ProjectSchema } from '@digiforce-cloud/dvd-types';
 import CodeGen from './standalone';
 
 declare const self: any;

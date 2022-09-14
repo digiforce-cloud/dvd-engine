@@ -2,8 +2,8 @@ import {
   DocumentModel as InnerDocumentModel,
   Node as InnerNode,
   getConvertedExtraKey,
-} from '@alilc/lowcode-designer';
-import { CompositeValue, NodeSchema, TransformStage } from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-designer';
+import { CompositeValue, NodeSchema, TransformStage } from '@digiforce-cloud/dvd-types';
 import Prop from './prop';
 import Props from './props';
 import DocumentModel from './document-model';

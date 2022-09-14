@@ -5,7 +5,7 @@ Rax 渲染模块。
 ## 安装
 
 ```
-$ npm install @alilc/lowcode-rax-renderer --save
+$ npm install @digiforce-cloud/dvd-rax-renderer --save
 ```
 
 ## 使用

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import DragResizeEngine from './drag-resize-engine';
-import { observer, computed, globalContext, Editor } from '@alilc/lowcode-editor-core';
+import { observer, computed, globalContext, Editor } from '@digiforce-cloud/dvd-editor-core';
 import classNames from 'classnames';
 import { SimulatorContext } from '../context';
 import { BuiltinSimulatorHost } from '../host';

@@ -3,7 +3,7 @@ import {
   IWidgetBaseConfig,
   IWidgetConfigArea,
   SkeletonEvents,
-} from '@alilc/lowcode-editor-skeleton';
+} from '@digiforce-cloud/dvd-editor-skeleton';
 import { skeletonSymbol } from './symbols';
 
 export default class Skeleton {

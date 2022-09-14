@@ -1,4 +1,4 @@
-export * from '@alilc/lowcode-datasource-types';
+export * from '@digiforce-cloud/dvd-datasource-types';
 export * from './editor';
 export * from './field-config';
 export * from './i18n';

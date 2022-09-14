@@ -1,4 +1,4 @@
-import { TransformedComponentMetadata as Metadata } from '@alilc/lowcode-types';
+import { TransformedComponentMetadata as Metadata } from '@digiforce-cloud/dvd-types';
 
 export function legacyIssues(metadata: Metadata): Metadata {
   const { devMode } = metadata;

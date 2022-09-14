@@ -3,11 +3,11 @@
 import { createElement, Component } from 'rax';
 import { getSearchParams as __$$getSearchParams } from 'rax-app';
 
-import { Page, Table } from '@alilc/lowcode-components';
+import { Page, Table } from '@digiforce-cloud/dvd-components';
 
-import { createHttpHandler as __$$createHttpRequestHandler } from '@alilc/lowcode-datasource-http-handler';
+import { createHttpHandler as __$$createHttpRequestHandler } from '@digiforce-cloud/dvd-datasource-http-handler';
 
-import { create as __$$createDataSourceEngine } from '@alilc/lowcode-datasource-engine/runtime';
+import { create as __$$createDataSourceEngine } from '@digiforce-cloud/dvd-datasource-engine/runtime';
 
 import { isMiniApp as __$$isMiniApp } from 'universal-env';
 

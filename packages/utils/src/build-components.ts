@@ -1,6 +1,6 @@
 import { ComponentType, forwardRef, createElement, FunctionComponent } from 'react';
-import { NpmInfo, ComponentSchema } from '@alilc/lowcode-types';
-import { Component } from '@alilc/lowcode-designer';
+import { NpmInfo, ComponentSchema } from '@digiforce-cloud/dvd-types';
+import { Component } from '@digiforce-cloud/dvd-designer';
 import { isESModule } from './is-es-module';
 import { isReactComponent, acceptsRef, wrapReactClass } from './is-react';
 import { isObject } from './is-object';

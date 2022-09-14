@@ -1,5 +1,5 @@
 // 仅使用类型
-import { Node } from '@alilc/lowcode-designer';
+import { Node } from '@digiforce-cloud/dvd-designer';
 
 export const getClosestNode = (node: Node, until: (node: Node) => boolean): Node | undefined => {
   if (!node) {

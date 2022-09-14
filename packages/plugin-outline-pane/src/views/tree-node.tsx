@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import classNames from 'classnames';
-import { observer } from '@alilc/lowcode-editor-core';
+import { observer } from '@digiforce-cloud/dvd-editor-core';
 import TreeNode from '../tree-node';
 import TreeTitle from './tree-title';
 import TreeBranches from './tree-branches';

@@ -1,5 +1,5 @@
-import { Editor, engineConfig } from '@alilc/lowcode-editor-core';
-import { getLogger } from '@alilc/lowcode-utils';
+import { Editor, engineConfig } from '@digiforce-cloud/dvd-editor-core';
+import { getLogger } from '@digiforce-cloud/dvd-utils';
 import {
   ILowCodePlugin,
   ILowCodePluginConfig,

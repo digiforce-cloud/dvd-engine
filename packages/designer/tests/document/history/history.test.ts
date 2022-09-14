@@ -1,5 +1,5 @@
 import '../../fixtures/window';
-import { mobx, makeAutoObservable, globalContext, Editor } from '@alilc/lowcode-editor-core';
+import { mobx, makeAutoObservable, globalContext, Editor } from '@digiforce-cloud/dvd-editor-core';
 import { History } from '../../../src/document/history';
 import { delay } from '../../utils/misc';
 

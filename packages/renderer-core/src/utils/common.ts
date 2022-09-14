@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable no-new-func */
 import logger from './logger';
-import { isI18nData, RootSchema, NodeSchema, isJSExpression, JSSlot } from '@alilc/lowcode-types';
+import { isI18nData, RootSchema, NodeSchema, isJSExpression, JSSlot } from '@digiforce-cloud/dvd-types';
 import { isEmpty } from 'lodash';
 import IntlMessageFormat from 'intl-messageformat';
 import pkg from '../../package.json';

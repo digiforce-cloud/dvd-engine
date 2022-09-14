@@ -1,4 +1,4 @@
-// import { uniqueId } from '@alilc/lowcode-utils';
+// import { uniqueId } from '@digiforce-cloud/dvd-utils';
 import Widget from './widget';
 import { Skeleton } from '../skeleton';
 import { WidgetConfig } from '../types';

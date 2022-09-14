@@ -1,11 +1,11 @@
 import { ReactNode, createElement } from 'react';
-import { makeObservable, obx } from '@alilc/lowcode-editor-core';
-import { createContent, uniqueId } from '@alilc/lowcode-utils';
-import { getEvent } from '@alilc/lowcode-shell';
+import { makeObservable, obx } from '@digiforce-cloud/dvd-editor-core';
+import { createContent, uniqueId } from '@digiforce-cloud/dvd-utils';
+import { getEvent } from '@digiforce-cloud/dvd-shell';
 import { WidgetConfig, IWidgetBaseConfig } from '../types';
 import { Skeleton } from '../skeleton';
 import { WidgetView } from '../components/widget-views';
-import { TitleContent } from '@alilc/lowcode-types';
+import { TitleContent } from '@digiforce-cloud/dvd-types';
 
 export interface IWidget {
   readonly name: string;

@@ -1,27 +1,27 @@
 #!/usr/bin/env bash
 
 lerna run build \
-  --scope @alilc/lowcode-types \
-  --scope @alilc/lowcode-utils \
-  --scope @alilc/lowcode-shell \
-  --scope @alilc/lowcode-editor-core \
-  --scope @alilc/lowcode-editor-skeleton \
-  --scope @alilc/lowcode-designer \
-  --scope @alilc/lowcode-plugin-designer \
-  --scope @alilc/lowcode-plugin-outline-pane \
-  --scope @alilc/lowcode-rax-renderer \
-  --scope @alilc/lowcode-rax-simulator-renderer \
-  --scope @alilc/lowcode-react-renderer \
-  --scope @alilc/lowcode-react-simulator-renderer \
-  --scope @alilc/lowcode-renderer-core \
-  --scope @alilc/lowcode-engine \
+  --scope @digiforce-cloud/dvd-types \
+  --scope @digiforce-cloud/dvd-utils \
+  --scope @digiforce-cloud/dvd-shell \
+  --scope @digiforce-cloud/dvd-editor-core \
+  --scope @digiforce-cloud/dvd-editor-skeleton \
+  --scope @digiforce-cloud/dvd-designer \
+  --scope @digiforce-cloud/dvd-plugin-designer \
+  --scope @digiforce-cloud/dvd-plugin-outline-pane \
+  --scope @digiforce-cloud/dvd-rax-renderer \
+  --scope @digiforce-cloud/dvd-rax-simulator-renderer \
+  --scope @digiforce-cloud/dvd-react-renderer \
+  --scope @digiforce-cloud/dvd-react-simulator-renderer \
+  --scope @digiforce-cloud/dvd-renderer-core \
+  --scope @digiforce-cloud/dvd-engine \
   --stream
 
 lerna run build:umd \
-  --scope @alilc/lowcode-engine \
-  --scope @alilc/lowcode-rax-simulator-renderer \
-  --scope @alilc/lowcode-react-simulator-renderer \
-  --scope @alilc/lowcode-react-renderer \
+  --scope @digiforce-cloud/dvd-engine \
+  --scope @digiforce-cloud/dvd-rax-simulator-renderer \
+  --scope @digiforce-cloud/dvd-react-simulator-renderer \
+  --scope @digiforce-cloud/dvd-react-renderer \
   --stream
 
 cp ./packages/react-simulator-renderer/dist/js/* ./packages/engine/dist/js/

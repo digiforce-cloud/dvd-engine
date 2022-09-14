@@ -1,5 +1,5 @@
-import { DocumentModel, Node } from '@alilc/lowcode-designer';
-import { computed, makeObservable } from '@alilc/lowcode-editor-core';
+import { DocumentModel, Node } from '@digiforce-cloud/dvd-designer';
+import { computed, makeObservable } from '@digiforce-cloud/dvd-editor-core';
 import TreeNode from './tree-node';
 
 export class Tree {
